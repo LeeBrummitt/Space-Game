@@ -221,6 +221,34 @@
             "varType": 1
         },
         {
+            "id": "4f8ed3be-acbb-4ba6-ade5-489bbb6b7b3c",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "60",
+            "varName": "quickness",
+            "varType": 0
+        },
+        {
+            "id": "a778f1a7-053d-4586-b027-0083ce2ac237",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "quicknessEfficiency",
+            "varType": 1
+        },
+        {
             "id": "5b0b3fb1-b267-4c3e-ac00-be9db856c7b7",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -316,6 +344,20 @@
             "resourceFilter": 1023,
             "value": "0",
             "varName": "isPlayer",
+            "varType": 3
+        },
+        {
+            "id": "98069c30-ea66-41b6-a7e9-edcc20ee02fd",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "False",
+            "varName": "turn",
             "varType": 3
         },
         {

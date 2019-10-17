@@ -1,9 +1,10 @@
-/// @description handle player movenent, etc
+/// @description handle character movenent, etc
 // You can write your code in this editor
 
-if(isPlayer == false){
-	
+if(isPlayer == false && turn == true){
+	NPCTurn();
+	endTurn();
 }
-else{
+else if (isPlayer == true && turn == true){
 	getPlayerInput();
 }
