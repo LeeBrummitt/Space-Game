@@ -33,6 +33,16 @@
             "enumb": 0,
             "eventtype": 3,
             "m_owner": "65cbdbbd-b08a-4116-b991-304859c68c37"
+        },
+        {
+            "id": "5f53eb48-a950-41fa-af58-179d24efb13b",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 2,
+            "eventtype": 3,
+            "m_owner": "65cbdbbd-b08a-4116-b991-304859c68c37"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -305,6 +315,34 @@
             "varType": 1
         },
         {
+            "id": "09f43df5-df11-4b06-9713-163632dffe9b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "obedience",
+            "varType": 1
+        },
+        {
+            "id": "62fdd97e-6363-4d81-8abd-cdb0c2c25901",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "opinion",
+            "varType": 1
+        },
+        {
             "id": "00d88617-da3e-45f3-a4a0-c19eaecf7b1d",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -361,6 +399,20 @@
             "varType": 3
         },
         {
+            "id": "ef7501dd-3474-4ea0-92ff-b8803bb8df43",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "True",
+            "varName": "catchable",
+            "varType": 3
+        },
+        {
             "id": "536bf94c-83d5-40c2-80f5-e9e6bd8e20cb",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -372,6 +424,20 @@
             "resourceFilter": 1023,
             "value": "0",
             "varName": "specialAbility",
+            "varType": 5
+        },
+        {
+            "id": "cc589610-ce6d-426f-b9cb-f7ecffc4995a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "sprite",
             "varType": 5
         }
     ],

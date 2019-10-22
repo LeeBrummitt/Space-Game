@@ -1,8 +1,8 @@
 {
-    "id": "bd01cd21-8cc1-4ce8-a175-419b60c4f061",
+    "id": "b0680dcf-b2af-4279-a71e-8d39682fd5d0",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "endTurn",
+    "name": "characterDie",
     "IsCompatibility": false,
     "IsDnD": false
 }

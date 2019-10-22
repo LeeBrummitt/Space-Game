@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "20639559-a67f-48c1-90e8-851dfa527529",
+            "Value": {
+                "id": "02497a40-ee9c-4e91-a0b8-a68fdead0c6d",
+                "resourcePath": "scripts\\calculateMaxHitPoints\\calculateMaxHitPoints.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "4126f9ff-91b7-46b7-9dfc-3828454a324c",
             "Value": {
                 "id": "c3002543-22c7-4a52-885b-7f173347ff22",
@@ -188,6 +196,14 @@
                 "id": "69b42d31-748d-44a6-900a-565d16684132",
                 "resourcePath": "objects\\controller\\controller.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6ac4f246-0186-4459-a531-818f84252ddd",
+            "Value": {
+                "id": "889555e8-66c2-4692-a906-06c07ece5adf",
+                "resourcePath": "scripts\\endOfTurnUpdate\\endOfTurnUpdate.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -279,11 +295,27 @@
             }
         },
         {
+            "Key": "a176fb43-d6c1-4f64-b1b2-131858135573",
+            "Value": {
+                "id": "c900c922-6104-4dfd-b605-6a2257d367a2",
+                "resourcePath": "scripts\\updateTime\\updateTime.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "fc3aa8b4-ae4f-470d-9dd6-425d8e475fdf",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "b0680dcf-b2af-4279-a71e-8d39682fd5d0",
+            "Value": {
+                "id": "30ebb298-d108-4d53-99c6-f80179aa4ccc",
+                "resourcePath": "scripts\\characterDie\\characterDie.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -306,7 +338,7 @@
             "Key": "bd01cd21-8cc1-4ce8-a175-419b60c4f061",
             "Value": {
                 "id": "6c71094d-f712-4277-ab35-d9a34182defa",
-                "resourcePath": "scripts\\endTurn\\endTurn.yy",
+                "resourcePath": "scripts\\endTurnCharacter\\endTurnCharacter.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -332,6 +364,14 @@
                 "id": "431e5114-86d1-4c6f-be85-d8d8a6937236",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cef69fdf-b203-4387-8585-2b96e2154a56",
+            "Value": {
+                "id": "9e4c5c0f-cb23-4fb6-9d42-b5ed8d497712",
+                "resourcePath": "scripts\\canCharacterMoveTo\\canCharacterMoveTo.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -396,7 +436,12 @@
         "90b822ad-046b-4ea1-b874-987dc14f34e4",
         "bd01cd21-8cc1-4ce8-a175-419b60c4f061",
         "1a733f06-8fe0-49d6-adc1-a822659a6527",
-        "091c6458-dc60-42c9-b1cf-03e219d8aa47"
+        "091c6458-dc60-42c9-b1cf-03e219d8aa47",
+        "6ac4f246-0186-4459-a531-818f84252ddd",
+        "20639559-a67f-48c1-90e8-851dfa527529",
+        "b0680dcf-b2af-4279-a71e-8d39682fd5d0",
+        "a176fb43-d6c1-4f64-b1b2-131858135573",
+        "cef69fdf-b203-4387-8585-2b96e2154a56"
     ],
     "tutorial": ""
 }
