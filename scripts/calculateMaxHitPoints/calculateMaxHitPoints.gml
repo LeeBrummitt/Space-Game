@@ -1,0 +1,1 @@
+hpMax = 100+10*constitution+2*strength;

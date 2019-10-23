@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "6cc5c165-a616-45cb-9fb4-ad9f4e477c5f",
+            "Value": {
+                "id": "86ac7fb5-04ca-4d17-9a87-109fc9bd0497",
+                "resourcePath": "scripts\\getClosestOpponent\\getClosestOpponent.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "7931ad01-a93f-46c5-a09e-84a80af6c384",
             "Value": {
                 "id": "6b8cd6cd-1654-43bd-98a9-874daa47e7c6",
@@ -284,6 +292,14 @@
                 "id": "82b9a29b-0934-4cda-ba0b-e282e45e24bc",
                 "resourcePath": "views\\94e537b0-a511-41bc-be3c-60b7ab7e20c3.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "97c72d81-a55b-4aa7-9cea-fdcd9037df5d",
+            "Value": {
+                "id": "c590685a-7e1e-4047-846c-90c232017aaa",
+                "resourcePath": "scripts\\characterInteractWithCharacter\\characterInteractWithCharacter.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -423,6 +439,14 @@
             }
         },
         {
+            "Key": "fb970e98-0e67-41df-aa35-15a2aa2dff5a",
+            "Value": {
+                "id": "144e07aa-ef9e-450d-b3f4-52e8282638af",
+                "resourcePath": "scripts\\characterAttack\\characterAttack.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ff7cb96c-b10a-477c-99db-69f0c2bfe531",
             "Value": {
                 "id": "89f60ce3-3488-4a19-af19-31858a0abaee",
@@ -441,7 +465,10 @@
         "20639559-a67f-48c1-90e8-851dfa527529",
         "b0680dcf-b2af-4279-a71e-8d39682fd5d0",
         "a176fb43-d6c1-4f64-b1b2-131858135573",
-        "cef69fdf-b203-4387-8585-2b96e2154a56"
+        "cef69fdf-b203-4387-8585-2b96e2154a56",
+        "97c72d81-a55b-4aa7-9cea-fdcd9037df5d",
+        "fb970e98-0e67-41df-aa35-15a2aa2dff5a",
+        "6cc5c165-a616-45cb-9fb4-ad9f4e477c5f"
     ],
     "tutorial": ""
 }

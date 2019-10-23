@@ -7,6 +7,11 @@ if (keyCooldown <= 0){
 				keyCooldown = global.cooldownTime;
 				turn = false;
 				global.takingTurn = false;
+			}else if(instance_position(x-global.xSize, y+global.ySize, genericCharacter) != noone){
+				characterInteractWithCharacter(id, instance_position(x-global.xSize, y+global.ySize, genericCharacter));
+				keyCooldown = global.cooldownTime;
+				turn = false;
+				global.takingTurn = false;
 			}
 		break;
 		case vk_numpad2:

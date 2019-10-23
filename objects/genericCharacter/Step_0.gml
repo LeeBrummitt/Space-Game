@@ -3,13 +3,13 @@
 
 if(isPlayer == false && turn == true){
 	// update max HP
-	hpMax = calculateMaxHitPoints();
+	calculateMaxHitPoints();
 	NPCTurn();
 	endTurnCharacter();
 }
 else if (isPlayer == true && turn == true){
 	// update max HP
-	hpMax = calculateMaxHitPoints();
+	calculateMaxHitPoints();
 	getPlayerInput();
 }
 if (keyCooldown > 0){

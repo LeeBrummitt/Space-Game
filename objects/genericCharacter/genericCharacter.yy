@@ -100,7 +100,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "1",
+            "value": "10",
             "varName": "strength",
             "varType": 0
         },
@@ -128,7 +128,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "1",
+            "value": "10",
             "varName": "constitution",
             "varType": 0
         },
@@ -156,7 +156,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "1",
+            "value": "10",
             "varName": "dexterity",
             "varType": 0
         },
@@ -184,7 +184,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "1",
+            "value": "10",
             "varName": "intelligence",
             "varType": 0
         },
@@ -212,7 +212,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "1",
+            "value": "10",
             "varName": "charisma",
             "varType": 0
         },
@@ -410,6 +410,20 @@
             "resourceFilter": 1023,
             "value": "True",
             "varName": "catchable",
+            "varType": 3
+        },
+        {
+            "id": "dd2c5b6c-9536-41a1-9f43-839141edcfcb",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "isDead",
             "varType": 3
         },
         {
