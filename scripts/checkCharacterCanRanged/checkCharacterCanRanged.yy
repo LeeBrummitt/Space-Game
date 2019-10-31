@@ -1,8 +1,8 @@
 {
-    "id": "8db12f0b-ba3d-4f74-9a00-7197a73c3c20",
+    "id": "39a38920-b14f-43cc-a9ce-0d5184fc759c",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "endOfTurnUpdate",
+    "name": "checkCharacterCanRanged",
     "IsCompatibility": false,
     "IsDnD": false
 }

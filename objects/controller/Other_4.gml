@@ -32,3 +32,7 @@ if(!variable_global_exists("ySize")){
 if(!variable_global_exists("cooldownTime")){
 	global.cooldownTime = 10;
 }
+
+// stop old song and play new songs
+audio_group_stop_all(audiogroup_default);
+audio_play_sound(roomSong, 1, true);

@@ -7,7 +7,9 @@ var path = path_add();
 
 mp_grid_add_instances(pathGrid, genericWall, true);
 if(charac != undefined && abs(x-charac.x) <= global.xSize && abs(y-charac.y) <= global.ySize){
-	characterAttack(id, charac);
+	characterAttackMelee(id, charac);
+} else if (checkCharacterCanRanged(id, charac) && isRanger == true){
+	characterAttackRanged(id, charac);
 } else if(charac != undefined && mp_grid_path(pathGrid, path, x, y, charac.x, charac.y, 1)){
 	x = path_get_point_x(path, 1);
 	y = path_get_point_y(path, 1);

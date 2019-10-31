@@ -1,8 +1,8 @@
 {
-    "id": "fb970e98-0e67-41df-aa35-15a2aa2dff5a",
+    "id": "0a90d4eb-4099-4267-9739-4e45cdcb7f33",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "characterAttack",
+    "name": "characterAttackRanged",
     "IsCompatibility": false,
     "IsDnD": false
 }

@@ -1,8 +1,8 @@
 {
-    "id": "8db12f0b-ba3d-4f74-9a00-7197a73c3c20",
+    "id": "fb970e98-0e67-41df-aa35-15a2aa2dff5a",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "endOfTurnUpdate",
+    "name": "characterAttackMelee",
     "IsCompatibility": false,
     "IsDnD": false
 }

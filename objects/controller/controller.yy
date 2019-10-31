@@ -52,7 +52,20 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": [
-        
+        {
+            "id": "7f6b2cee-0456-4783-af00-63c990ec6c00",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "Standard",
+            "varName": "roomSong",
+            "varType": 5
+        }
     ],
     "solid": false,
     "spriteId": "00000000-0000-0000-0000-000000000000",
