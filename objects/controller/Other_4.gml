@@ -30,5 +30,5 @@ if(!variable_global_exists("ySize")){
 }
 
 if(!variable_global_exists("cooldownTime")){
-	global.cooldownTime = 20;
+	global.cooldownTime = 10;
 }

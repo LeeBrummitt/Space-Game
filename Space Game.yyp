@@ -119,6 +119,22 @@
             }
         },
         {
+            "Key": "2ba0f520-ec7e-4a92-b2b8-5d8ab733b0b9",
+            "Value": {
+                "id": "fa24ea67-f081-4c24-bb09-8d59b11d683e",
+                "resourcePath": "sounds\\playerDeath\\playerDeath.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "332a6af7-d766-4452-9c7d-44bb6933183a",
+            "Value": {
+                "id": "6bcb12f7-956b-4661-8b73-99ae45f42ad9",
+                "resourcePath": "sounds\\laser\\laser.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "4126f9ff-91b7-46b7-9dfc-3828454a324c",
             "Value": {
                 "id": "c3002543-22c7-4a52-885b-7f173347ff22",
@@ -172,6 +188,14 @@
                 "id": "9ea35d7c-6d48-4993-adb6-de6c96de249e",
                 "resourcePath": "views\\55d26697-93f1-4949-9ea4-3930276fe077.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "612010a5-3717-450c-8a21-67df96c22115",
+            "Value": {
+                "id": "7f075de8-9ba5-43e0-bb17-c8adf083f109",
+                "resourcePath": "sounds\\turnOn\\turnOn.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -252,6 +276,22 @@
                 "id": "fa9a7da6-9c82-4c2e-8d25-8b9aee08f15e",
                 "resourcePath": "sprites\\wallSprite\\wallSprite.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8a675167-849c-48a2-911a-5c2ebe859220",
+            "Value": {
+                "id": "f798d931-5f7b-457d-b19d-49b51d7bfdc6",
+                "resourcePath": "sounds\\denied\\denied.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "8c7deb1b-086f-4539-ab34-3f4eb0d70e23",
+            "Value": {
+                "id": "168ef745-aef4-4dd2-8782-897c16fcfde0",
+                "resourcePath": "sounds\\explode\\explode.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -375,6 +415,14 @@
             }
         },
         {
+            "Key": "c77db3fb-2cc0-4f2f-b0d1-22db82cb2e06",
+            "Value": {
+                "id": "fb70c1fd-b26a-4729-b19b-72fb1dbe0031",
+                "resourcePath": "sounds\\Alien\\Alien.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "431e5114-86d1-4c6f-be85-d8d8a6937236",
@@ -383,11 +431,27 @@
             }
         },
         {
+            "Key": "cdae607d-9b3a-4e20-ac0a-aa02f23a9282",
+            "Value": {
+                "id": "7e9e0552-d918-4aef-bec3-f0fa177fea15",
+                "resourcePath": "sounds\\bleep\\bleep.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "cef69fdf-b203-4387-8585-2b96e2154a56",
             "Value": {
                 "id": "9e4c5c0f-cb23-4fb6-9d42-b5ed8d497712",
                 "resourcePath": "scripts\\canCharacterMoveTo\\canCharacterMoveTo.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "d38abdda-cab4-4621-93ae-4a5d5f060eb4",
+            "Value": {
+                "id": "92fac78d-3c38-44b7-bc4d-60948b734256",
+                "resourcePath": "sounds\\runAway\\runAway.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -420,6 +484,22 @@
                 "id": "d7b29d1d-51fa-4b0e-8437-b7c7174129c9",
                 "resourcePath": "options\\android\\options_android.yy",
                 "resourceType": "GMAndroidOptions"
+            }
+        },
+        {
+            "Key": "e8a91c1e-6c2e-4b16-8e91-4301ca0aa028",
+            "Value": {
+                "id": "7f06ae78-7358-4ebc-afd0-35d232f16d66",
+                "resourcePath": "sounds\\hit\\hit.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "f2624b18-7b81-494b-8c1c-b4365d4321d8",
+            "Value": {
+                "id": "2c5265c3-c689-4793-a0eb-82c9d8a5d057",
+                "resourcePath": "sounds\\explodeBIG\\explodeBIG.yy",
+                "resourceType": "GMSound"
             }
         },
         {

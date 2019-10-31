@@ -22,12 +22,22 @@ if (keyCooldown <= 0){
 				keyCooldown = global.cooldownTime;
 				turn = false;
 				global.takingTurn = false;
+			}else if(instance_position(x, y+global.ySize, genericCharacter) != noone){
+				characterInteractWithCharacter(id, instance_position(x, y+global.ySize, genericCharacter));
+				keyCooldown = global.cooldownTime;
+				turn = false;
+				global.takingTurn = false;
 			}
 		break;
 		case vk_numpad3:
 			if (canCharacterMoveTo(x+global.xSize, y+global.xSize)){
 				x = x+global.xSize;
 				y = y+global.ySize;
+				keyCooldown = global.cooldownTime;
+				turn = false;
+				global.takingTurn = false;
+			}else if(instance_position(x+global.xSize, y+global.ySize, genericCharacter) != noone){
+				characterInteractWithCharacter(id, instance_position(x+global.xSize, y+global.ySize, genericCharacter));
 				keyCooldown = global.cooldownTime;
 				turn = false;
 				global.takingTurn = false;
@@ -38,6 +48,11 @@ if (keyCooldown <= 0){
 			if (canCharacterMoveTo(x-global.xSize, y)){
 				x = x-global.xSize;
 				y = y;
+				keyCooldown = global.cooldownTime;
+				turn = false;
+				global.takingTurn = false;
+			}else if(instance_position(x-global.xSize, y, genericCharacter) != noone){
+				characterInteractWithCharacter(id, instance_position(x-global.xSize, y, genericCharacter));
 				keyCooldown = global.cooldownTime;
 				turn = false;
 				global.takingTurn = false;
@@ -56,12 +71,22 @@ if (keyCooldown <= 0){
 				keyCooldown = global.cooldownTime;
 				turn = false;
 				global.takingTurn = false;
+			}else if(instance_position(x+global.xSize, y, genericCharacter) != noone){
+				characterInteractWithCharacter(id, instance_position(x+global.xSize, y, genericCharacter));
+				keyCooldown = global.cooldownTime;
+				turn = false;
+				global.takingTurn = false;
 			}
 		break;
 		case vk_numpad7:
 			if (canCharacterMoveTo(x-global.xSize, y-global.ySize)){
 				x = x-global.xSize;
 				y = y-global.ySize;
+				keyCooldown = global.cooldownTime;
+				turn = false;
+				global.takingTurn = false;
+			}else if(instance_position(x-global.xSize, y-global.ySize, genericCharacter) != noone){
+				characterInteractWithCharacter(id, instance_position(x-global.xSize, y-global.ySize, genericCharacter));
 				keyCooldown = global.cooldownTime;
 				turn = false;
 				global.takingTurn = false;
@@ -75,12 +100,22 @@ if (keyCooldown <= 0){
 				keyCooldown = global.cooldownTime;
 				turn = false;
 				global.takingTurn = false;
+			}else if(instance_position(x, y-global.ySize, genericCharacter) != noone){
+				characterInteractWithCharacter(id, instance_position(x, y-global.ySize, genericCharacter));
+				keyCooldown = global.cooldownTime;
+				turn = false;
+				global.takingTurn = false;
 			}
 		break;
 		case vk_numpad9:
 			if (canCharacterMoveTo(x+global.xSize, y-global.ySize)){
 				x = x+global.xSize;
 				y = y-global.ySize;
+				keyCooldown = global.cooldownTime;
+				turn = false;
+				global.takingTurn = false;
+			}else if(instance_position(x+global.xSize, y-global.ySize, genericCharacter) != noone){
+				characterInteractWithCharacter(id, instance_position(x+global.xSize, y-global.ySize, genericCharacter));
 				keyCooldown = global.cooldownTime;
 				turn = false;
 				global.takingTurn = false;
