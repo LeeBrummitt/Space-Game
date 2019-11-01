@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "150caf04-f1d2-4600-a06d-b5c3ca7e65e4",
+            "Value": {
+                "id": "290ff5b3-952d-42f5-b28d-f7d0757a7b64",
+                "resourcePath": "objects\\genericFloor\\genericFloor.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1a733f06-8fe0-49d6-adc1-a822659a6527",
             "Value": {
                 "id": "5bead764-5def-4b62-b8d7-433c1c060722",
@@ -495,6 +503,14 @@
             }
         },
         {
+            "Key": "bb2a1607-257b-4f64-a9d4-2beb33f64e60",
+            "Value": {
+                "id": "8f287722-2818-462a-a1ff-c8b9d51dd87b",
+                "resourcePath": "sprites\\Tiled_Floor\\Tiled_Floor.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bd01cd21-8cc1-4ce8-a175-419b60c4f061",
             "Value": {
                 "id": "6c71094d-f712-4277-ab35-d9a34182defa",
@@ -620,6 +636,14 @@
                 "id": "7f06ae78-7358-4ebc-afd0-35d232f16d66",
                 "resourcePath": "sounds\\hit\\hit.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "e99e4c25-456b-4042-b157-8faa13dfdc12",
+            "Value": {
+                "id": "236950d8-4bab-44f0-8b28-1b52cb7e543b",
+                "resourcePath": "objects\\greyFloorTile\\greyFloorTile.yy",
+                "resourceType": "GMObject"
             }
         },
         {
