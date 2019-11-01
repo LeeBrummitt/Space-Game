@@ -1,1 +1,1 @@
-hpMax = 100+10*constitution+2*strength;
+return 100+10*constitution+2*strength;

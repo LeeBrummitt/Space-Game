@@ -54,5 +54,23 @@ if (keyCooldown <= 0){
 				window_set_fullscreen(false);
 			}
 		break;
+		// screenshot
+		case vk_f12:
+			keyCooldown = global.cooldownTime;
+			var i = 0;
+			for(i = 0; file_exists(working_directory + "Screenshots\\" + string(i) + ".png"); i++){
+				show_debug_message("Filename exists, continuing...")
+			}
+			screen_save(working_directory + "Screenshots\\" + string(i) + ".png");
+			show_debug_message("Screenshot saved in " + working_directory + "Screenshots\\" + string(i) + ".png");
+		break;
+		// quicksave and quickload
+		// TODO: Make custom saving system
+		case vk_f5:
+			game_save(working_directory + "Savegames\\" + global.playerName + "\\quicksave.sav");
+		break;
+		case vk_f9:
+			game_load(working_directory + "Savegames\\" + global.playerName + "\\quicksave.sav");
+		break;
 	}
 }

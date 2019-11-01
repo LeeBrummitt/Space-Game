@@ -1,14 +1,23 @@
 {
-    "id": "7e132948-6a0f-4c57-af45-0b5ca1e62865",
+    "id": "0b279ac9-bc05-43cb-ad56-56096c740347",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "bioThreat",
+    "name": "nurse",
     "eventList": [
         
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "overriddenProperties": null,
-    "parentObjectId": "beb2aa87-7356-4523-b82d-01f85efd1af3",
+    "overriddenProperties": [
+        {
+            "id": "490f6a64-0f1d-4e5d-84fb-2abe493367f6",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "65cbdbbd-b08a-4116-b991-304859c68c37",
+            "propertyId": "536bf94c-83d5-40c2-80f5-e9e6bd8e20cb",
+            "value": "healAllies"
+        }
+    ],
+    "parentObjectId": "ff7cb96c-b10a-477c-99db-69f0c2bfe531",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -24,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "3793fbbd-fc4c-46f7-87c6-f068f78bd2f8",
+    "spriteId": "c5ed1cbd-18ba-4edf-ac49-afbb4bada415",
     "visible": true
 }

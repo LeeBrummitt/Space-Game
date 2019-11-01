@@ -25,8 +25,6 @@ while(global.takingTurn == false && global.turn < 2000){
 	// CHECK THIS LATER, IT MAY NOT DO TIME CORRECTLY
 	if (i >= instance_number(genericCharacter)){
 		global.turn++;
-		show_debug_message("Turn: ");
-		show_debug_message(global.turn);
 		turnTakers = undefined;
 		endOfTurnUpdate();
 	}

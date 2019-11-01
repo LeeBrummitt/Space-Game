@@ -43,6 +43,16 @@
             "enumb": 2,
             "eventtype": 3,
             "m_owner": "65cbdbbd-b08a-4116-b991-304859c68c37"
+        },
+        {
+            "id": "15013118-77d3-4cc6-8efa-9f5c122beab8",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 64,
+            "eventtype": 8,
+            "m_owner": "65cbdbbd-b08a-4116-b991-304859c68c37"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -343,6 +353,20 @@
             "varType": 1
         },
         {
+            "id": "182a3d53-3016-4634-8d38-8ff1d441a9e3",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "10",
+            "varName": "karma",
+            "varType": 1
+        },
+        {
             "id": "00d88617-da3e-45f3-a4a0-c19eaecf7b1d",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -449,13 +473,13 @@
             "rangeEnabled": false,
             "rangeMax": 10,
             "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
+            "resourceFilter": 16,
+            "value": "noone",
             "varName": "specialAbility",
             "varType": 5
         },
         {
-            "id": "cc589610-ce6d-426f-b9cb-f7ecffc4995a",
+            "id": "098cb179-f7e4-427d-9eaa-170d69a482bb",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -464,7 +488,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
+            "value": "noone",
             "varName": "sprite",
             "varType": 5
         }

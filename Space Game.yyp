@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "04d9ec4d-23c7-4e0b-82e6-942253006a8c",
+            "Value": {
+                "id": "ca355c40-181f-4958-b194-52fa7d87bb38",
+                "resourcePath": "sounds\\heal\\heal.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "05182dbb-1a58-4c48-b480-39d72eae37a9",
             "Value": {
                 "id": "aa3e97a3-65ec-4785-9e68-c41d252e685f",
@@ -84,6 +92,14 @@
                 "id": "8e038676-dd7c-4133-89c9-17b741a7ae2a",
                 "resourcePath": "scripts\\characterAttackRanged\\characterAttackRanged.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "0b279ac9-bc05-43cb-ad56-56096c740347",
+            "Value": {
+                "id": "558adebd-0d0c-4a94-9401-921b6cacd289",
+                "resourcePath": "objects\\nurse\\nurse.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -167,6 +183,14 @@
             }
         },
         {
+            "Key": "3793fbbd-fc4c-46f7-87c6-f068f78bd2f8",
+            "Value": {
+                "id": "d6c59b96-d72d-4eef-aa45-830cffc26e2d",
+                "resourcePath": "sprites\\Bio_Threat\\Bio_Threat.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "39a38920-b14f-43cc-a9ce-0d5184fc759c",
             "Value": {
                 "id": "d0c2a1ab-8027-4fb1-a6dc-3a7440df174c",
@@ -239,6 +263,14 @@
             }
         },
         {
+            "Key": "6350f777-0824-4943-829f-4c6259fe9194",
+            "Value": {
+                "id": "1d1582b3-75e6-4722-b115-59754e604eaf",
+                "resourcePath": "scripts\\calculateMaxStamina\\calculateMaxStamina.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "63656d8b-e0db-4751-8aeb-1465fbb2d142",
             "Value": {
                 "id": "d8a336a0-f7dc-4982-8efd-a9aca9da0cd8",
@@ -263,10 +295,26 @@
             }
         },
         {
+            "Key": "6c3a94ef-b0a6-4633-a499-b517fd733c71",
+            "Value": {
+                "id": "636117d9-9c77-409b-a3dd-4220a2b8949d",
+                "resourcePath": "scripts\\getClosestAlly\\getClosestAlly.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "6cc5c165-a616-45cb-9fb4-ad9f4e477c5f",
             "Value": {
                 "id": "86ac7fb5-04ca-4d17-9a87-109fc9bd0497",
                 "resourcePath": "scripts\\getClosestOpponent\\getClosestOpponent.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6d1c663b-8121-4258-a149-63d3477a3733",
+            "Value": {
+                "id": "237b88ac-528a-4697-9d04-f588bde46d18",
+                "resourcePath": "scripts\\healAllies\\healAllies.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -399,6 +447,14 @@
             }
         },
         {
+            "Key": "a1f1fa56-17bb-42b0-8274-df197efe455a",
+            "Value": {
+                "id": "33df20f2-b383-471f-b893-3f8636dfeff5",
+                "resourcePath": "sprites\\Stone_Wall\\Stone_Wall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "fc3aa8b4-ae4f-470d-9dd6-425d8e475fdf",
@@ -452,6 +508,22 @@
                 "id": "06274351-f00e-4a3a-988f-9dec395013d8",
                 "resourcePath": "objects\\genericEnemy\\genericEnemy.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c29476d8-b4bd-44f7-bc71-0274dc8f88cb",
+            "Value": {
+                "id": "19e9f8a1-4777-47a6-adc3-2fa2d0a3a0b1",
+                "resourcePath": "sprites\\AIP_Guard\\AIP_Guard.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c5ed1cbd-18ba-4edf-ac49-afbb4bada415",
+            "Value": {
+                "id": "53b2037f-7785-4d81-9682-f182b1cd251b",
+                "resourcePath": "sprites\\Human_Nurse\\Human_Nurse.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -583,6 +655,14 @@
             }
         },
         {
+            "Key": "fbf03112-882d-4750-94c6-fec8d9ecfed6",
+            "Value": {
+                "id": "7d7da726-c3eb-4e7c-8002-0f0998028723",
+                "resourcePath": "scripts\\calculateMaxPsionicPoints\\calculateMaxPsionicPoints.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ff7cb96c-b10a-477c-99db-69f0c2bfe531",
             "Value": {
                 "id": "89f60ce3-3488-4a19-af19-31858a0abaee",
@@ -607,7 +687,11 @@
         "a176fb43-d6c1-4f64-b1b2-131858135573",
         "cef69fdf-b203-4387-8585-2b96e2154a56",
         "6cc5c165-a616-45cb-9fb4-ad9f4e477c5f",
-        "8db12f0b-ba3d-4f74-9a00-7197a73c3c20"
+        "8db12f0b-ba3d-4f74-9a00-7197a73c3c20",
+        "6d1c663b-8121-4258-a149-63d3477a3733",
+        "6c3a94ef-b0a6-4633-a499-b517fd733c71",
+        "6350f777-0824-4943-829f-4c6259fe9194",
+        "fbf03112-882d-4750-94c6-fec8d9ecfed6"
     ],
     "tutorial": ""
 }
