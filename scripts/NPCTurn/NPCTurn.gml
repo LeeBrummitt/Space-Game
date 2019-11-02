@@ -14,7 +14,7 @@ for(var i = 0; i < instance_number(genericCharacter); i++){
 }
 
 //TODO: Make it so the ai chooses the next closest character if it can't path to the closest one.
-
+//TODO: Make charac a constant so you can targt friendlies that damage you
 if(specialAbility == noone || !script_execute(specialAbility)){
 	if(charac != undefined && abs(x-charac.x) <= global.xSize && abs(y-charac.y) <= global.ySize){
 		characterAttackMelee(id, charac);

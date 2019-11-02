@@ -1,0 +1,72 @@
+{
+    "id": "8ee26ae3-dbe3-472d-b706-ce1a2f24ff69",
+    "modelName": "GMObject",
+    "mvc": "1.0",
+    "name": "genericRoomTransitioner",
+    "eventList": [
+        
+    ],
+    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
+    "overriddenProperties": null,
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "persistent": false,
+    "physicsAngularDamping": 0.1,
+    "physicsDensity": 0.5,
+    "physicsFriction": 0.2,
+    "physicsGroup": 0,
+    "physicsKinematic": false,
+    "physicsLinearDamping": 0.1,
+    "physicsObject": false,
+    "physicsRestitution": 0.1,
+    "physicsSensor": false,
+    "physicsShape": 1,
+    "physicsShapePoints": null,
+    "physicsStartAwake": true,
+    "properties": [
+        {
+            "id": "dfcfe4a3-f546-4c28-9318-ab637db712f4",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 512,
+            "value": "genericSpaceOverworld",
+            "varName": "roomToGoTo",
+            "varType": 5
+        },
+        {
+            "id": "bde453f8-a8f3-4098-aa15-d4479e6e9437",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "66",
+            "varName": "roomToGoToX",
+            "varType": 0
+        },
+        {
+            "id": "8475ad65-b33c-4eab-a196-655e715de01f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "66",
+            "varName": "roomToGoToY",
+            "varType": 0
+        }
+    ],
+    "solid": false,
+    "spriteId": "2ba0ec3b-226f-4b77-811a-8c63e903a414",
+    "visible": true
+}

@@ -72,5 +72,37 @@ if (keyCooldown <= 0){
 		case vk_f9:
 			game_load(working_directory + "Savegames\\" + global.playerName + "\\quicksave.sav");
 		break;
+		// generic use button
+		case vk_enter:
+			if (instance_position(x, y, captainsChair)){
+				x = global.overworldX;
+				y = global.overworldY;
+				room = global.overworldRoom;
+				keyCooldown = global.cooldownTime;
+				turn = false;
+				global.takingTurn = false;
+			}else if (instance_position(x, y, genericRoomTransitioner)){
+				var xtemp = x;
+				var ytemp = y;
+				x = instance_position(xtemp, ytemp, genericRoomTransitioner).roomToGoToX;
+				y = instance_position(xtemp, ytemp, genericRoomTransitioner).roomToGoToY;
+				room_goto(instance_position(xtemp, ytemp, genericRoomTransitioner).roomToGoTo);
+				keyCooldown = global.cooldownTime;
+				turn = false;
+				global.takingTurn = false;
+			} else if(room == genericSpaceOverworld){
+				//TODO: consider using variables so we dont have to keep searching for items
+				//TODO: make sure there is a captains chair to go to
+				global.overworldRoom = room;
+				global.overworldX = x;
+				global.overworldY = y;
+				room_goto(playerShip);
+				x = 561
+				y = 165
+				keyCooldown = global.cooldownTime;
+				turn = false;
+				global.takingTurn = false;
+			}
+		break;
 	}
 }
