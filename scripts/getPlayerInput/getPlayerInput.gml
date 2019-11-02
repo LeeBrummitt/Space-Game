@@ -127,5 +127,12 @@ if (keyCooldown <= 0 && instance_find(genericMenu, 0) == noone){
 			instance_create_layer(-33, 0, "MiddleObjects", inventoryMenu);
 			keyCooldown = global.cooldownTime;
 		break;
+		case ord("G"):
+			if(instance_position(x, y, genericItem) != noone){
+				addItemToInventory(instance_position(x, y, genericItem), inventory);
+				instance_destroy(instance_position(x, y, genericItem));
+			}
+			keyCooldown = global.cooldownTime;
+		break;
 	}
 }

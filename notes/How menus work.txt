@@ -1,0 +1,10 @@
+Writing this incase I forget.
+
+1. crreate the menu
+2. set the values using a customized set_____Menu script
+3. The menu will need a ______MenuInputs script to detect inputs
+
+Yes, this does mean that you need two scripts for ever new menu you make.
+One for helpint to create the menu and one for running it.
+
+Yes, you will need to update old scripts if you want to "link" menus together.

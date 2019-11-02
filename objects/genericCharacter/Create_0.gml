@@ -13,3 +13,8 @@ keyCooldown = 0;
 if(!variable_global_exists("playerName") && isPlayer == true){
 	global.playerName = characterName;
 }
+
+// name, number, weight, value, damage, armor, material, special
+inventory = ds_grid_create(1,8);
+equipment = ds_grid_create(1,8);
+

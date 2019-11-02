@@ -1,3 +1,5 @@
 TODO: Make it so characters create a controller and output an error if none is found.
 
 TODO: Make it so you can use better resolution settings
+
+TODO: Make a better menu system. 

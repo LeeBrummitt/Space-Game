@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "02641811-74c2-4982-8756-62245c7986e4",
+            "Value": {
+                "id": "85a38bcf-b4d1-4ab9-9220-1ed6030b20ce",
+                "resourcePath": "sprites\\gold_bar\\gold_bar.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "04a1deb8-d15b-4b60-9172-7c650a6325b0",
             "Value": {
                 "id": "0c240a9c-41c7-451d-9cea-3aa8ea499770",
@@ -119,10 +127,10 @@
             }
         },
         {
-            "Key": "0f7ed52e-88f7-438a-b976-c470fdba84ac",
+            "Key": "0b8d0329-4d31-4be3-861a-bc78c750261c",
             "Value": {
-                "id": "95e8dd63-05d1-47b0-988b-fb5fe4ab588b",
-                "resourcePath": "datafiles_yy\\Licenses\\OpenSans_License.txt.yy",
+                "id": "86eb1365-a6c7-4679-8271-e0fb6f3eab50",
+                "resourcePath": "datafiles_yy\\Licenses\\OpenSans_LICENSE.txt.yy",
                 "resourceType": "GMIncludedFile"
             }
         },
@@ -647,6 +655,14 @@
             }
         },
         {
+            "Key": "aa2f981f-77b8-4eef-accf-3e68a3c6a429",
+            "Value": {
+                "id": "da5d958f-752b-4fdb-ad19-f47c15dff8f6",
+                "resourcePath": "objects\\gold\\gold.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ab567fee-46a8-404a-8734-39e89ea3e00a",
             "Value": {
                 "id": "739f52fc-53ef-4dfd-aa73-b2dc346f30c9",
@@ -724,6 +740,14 @@
                 "id": "19e9f8a1-4777-47a6-adc3-2fa2d0a3a0b1",
                 "resourcePath": "sprites\\AIP_Guard\\AIP_Guard.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c3bd678c-b85f-4b17-b32b-fe2723ebc62d",
+            "Value": {
+                "id": "836271de-9b4a-4640-80a3-d47ad4082b63",
+                "resourcePath": "notes\\How menus work.yy",
+                "resourceType": "GMNotes"
             }
         },
         {
@@ -927,6 +951,14 @@
             }
         },
         {
+            "Key": "feabe6a1-58d7-44fb-8935-d489182a01e1",
+            "Value": {
+                "id": "fb1fb3ba-5b4e-4ab6-9efe-c9a8f8bcb2d3",
+                "resourcePath": "scripts\\addItemToInventory\\addItemToInventory.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ff7cb96c-b10a-477c-99db-69f0c2bfe531",
             "Value": {
                 "id": "89f60ce3-3488-4a19-af19-31858a0abaee",
@@ -960,7 +992,8 @@
         "22b92069-7b67-4842-bf6b-73aa65d7a41c",
         "f3f33e1d-226e-4643-a90a-65f99b642ef5",
         "5637a950-2fce-450d-805d-289d2c00a2ea",
-        "186307cf-441e-4de1-8728-7bde36c2d7bd"
+        "186307cf-441e-4de1-8728-7bde36c2d7bd",
+        "feabe6a1-58d7-44fb-8935-d489182a01e1"
     ],
     "tutorial": ""
 }
