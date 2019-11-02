@@ -29,9 +29,24 @@ if(!variable_global_exists("ySize")){
 	global.ySize = 33;
 }
 
+// initialize cooldown time
 if(!variable_global_exists("cooldownTime")){
 	global.cooldownTime = 10;
 }
+
+// initialize overworld location
+if(!variable_global_exists("overworldRoom")){
+	global.overworldRoom = genericSpaceOverworld;
+}
+if(!variable_global_exists("overworldX")){
+	global.overworldX = 99;
+}
+if(!variable_global_exists("overworldY")){
+	global.overworldY = 99;
+}
+
+//set font
+draw_set_font(openSans30);
 
 // stop old song and play new songs
 audio_group_stop_all(audiogroup_default);

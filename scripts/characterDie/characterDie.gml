@@ -5,5 +5,8 @@ if(persistent == false){
 	x = -4;
 	y = -4;
 }else{
-	//Handle Player Death
+	room_goto(playerShip);
+	x = 561;
+	y = 165;
+	hp = hpMax;
 }

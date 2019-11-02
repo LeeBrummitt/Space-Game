@@ -16,7 +16,7 @@ else if (isPlayer == true && turn == true){
 	stmMax = calculateMaxStamina();
 	getPlayerInput();
 }
-if (keyCooldown > 0){
+if (keyCooldown > 0 && instance_find(genericMenu, 0) == noone){
 	keyCooldown--;
 }
 // change sprite if it doesn't match the one saved

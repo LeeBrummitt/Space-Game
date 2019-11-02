@@ -1,33 +1,43 @@
 {
-    "id": "691e4c5e-2eab-49bf-8381-a75c5f994887",
+    "id": "c5075104-cd52-4295-8069-8520c937251e",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "controller",
+    "name": "inventoryMenu",
     "eventList": [
         {
-            "id": "832e1df2-e77d-45fe-9928-1c8ff34b04f5",
+            "id": "22aba4f0-5c6b-4be4-997c-f90e45d234e5",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 1,
+            "enumb": 0,
             "eventtype": 3,
-            "m_owner": "691e4c5e-2eab-49bf-8381-a75c5f994887"
+            "m_owner": "c5075104-cd52-4295-8069-8520c937251e"
         },
         {
-            "id": "e14bdc59-2daa-445a-91e3-c3cd6098294e",
+            "id": "f1e401ac-7b1e-4921-919b-207239f7ec3c",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 4,
-            "eventtype": 7,
-            "m_owner": "691e4c5e-2eab-49bf-8381-a75c5f994887"
+            "enumb": 64,
+            "eventtype": 8,
+            "m_owner": "c5075104-cd52-4295-8069-8520c937251e"
+        },
+        {
+            "id": "5ddbff7d-c33f-47ae-8be0-769d4005eaf4",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "c5075104-cd52-4295-8069-8520c937251e"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "1d790e28-2486-4024-93f8-c6b2e334a184",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -41,22 +51,7 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": [
-        {
-            "id": "7f6b2cee-0456-4783-af00-63c990ec6c00",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "Standard",
-            "varName": "roomSong",
-            "varType": 5
-        }
-    ],
+    "properties": null,
     "solid": false,
     "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true

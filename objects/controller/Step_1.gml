@@ -35,3 +35,5 @@ if (global.turn >= 2000){
 	global.minute++;
 	updateTime();
 }
+
+display_set_gui_size(window_get_width(), window_get_height());

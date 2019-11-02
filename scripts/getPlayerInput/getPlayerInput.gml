@@ -1,4 +1,4 @@
-if (keyCooldown <= 0){
+if (keyCooldown <= 0 && instance_find(genericMenu, 0) == noone){
 	switch(keyboard_key){
 		// movement keys
 		case vk_numpad1:
@@ -81,7 +81,19 @@ if (keyCooldown <= 0){
 				keyCooldown = global.cooldownTime;
 				turn = false;
 				global.takingTurn = false;
-			}else if (instance_position(x, y, genericRoomTransitioner)){
+			}else if (instance_position(x, y, genericRoomTransitioner) && room == genericSpaceOverworld){
+				var xtemp = x;
+				var ytemp = y;
+				global.overworldRoom = room;
+				global.overworldX = x;
+				global.overworldY = y;
+				x = instance_position(xtemp, ytemp, genericRoomTransitioner).roomToGoToX;
+				y = instance_position(xtemp, ytemp, genericRoomTransitioner).roomToGoToY;
+				room_goto(instance_position(xtemp, ytemp, genericRoomTransitioner).roomToGoTo);
+				keyCooldown = global.cooldownTime;
+				turn = false;
+				global.takingTurn = false;
+			} else if (instance_position(x, y, genericRoomTransitioner)){
 				var xtemp = x;
 				var ytemp = y;
 				x = instance_position(xtemp, ytemp, genericRoomTransitioner).roomToGoToX;
@@ -97,12 +109,22 @@ if (keyCooldown <= 0){
 				global.overworldX = x;
 				global.overworldY = y;
 				room_goto(playerShip);
-				x = 561
-				y = 165
+				x = 561;
+				y = 165;
 				keyCooldown = global.cooldownTime;
 				turn = false;
 				global.takingTurn = false;
 			}
+		break;
+		// bring up escape menu
+		case vk_escape:
+			instance_create_layer(-33, 0, "MiddleObjects", escapeMenu);
+			keyCooldown = global.cooldownTime;
+		break;
+		//bring up inventory
+		case ord("I"):
+			instance_create_layer(-33, 0, "MiddleObjects", inventoryMenu);
+			keyCooldown = global.cooldownTime;
 		break;
 	}
 }

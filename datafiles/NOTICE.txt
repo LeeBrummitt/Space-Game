@@ -1,0 +1,10 @@
+The following programs, fonts, etc amongst others, were used
+in the creation of this game:
+Open Arial
+GMS2
+ar3sfxr
+Rytmik Studio
+Aseprite
+
+Please do not distribue thia game, in part or in whole, without 
+the creator's express permission.
