@@ -118,7 +118,8 @@ if (keyCooldown <= 0 && instance_find(genericMenu, 0) == noone){
 		break;
 		// bring up escape menu
 		case vk_escape:
-			instance_create_layer(-33, 0, "MiddleObjects", escapeMenu);
+			var escmen = instance_create_layer(-33, 0, "MiddleObjects", escapeMenu);
+			setEscapeMenu(escmen);
 			keyCooldown = global.cooldownTime;
 		break;
 		//bring up inventory

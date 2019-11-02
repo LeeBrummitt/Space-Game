@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "186307cf-441e-4de1-8728-7bde36c2d7bd",
+            "Value": {
+                "id": "19d65cde-56f9-4d01-a588-91c703b79377",
+                "resourcePath": "scripts\\setOptionsMenu\\setOptionsMenu.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1a733f06-8fe0-49d6-adc1-a822659a6527",
             "Value": {
                 "id": "5bead764-5def-4b62-b8d7-433c1c060722",
@@ -195,6 +203,14 @@
             "Value": {
                 "id": "02497a40-ee9c-4e91-a0b8-a68fdead0c6d",
                 "resourcePath": "scripts\\calculateMaxHitPoints\\calculateMaxHitPoints.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "22b92069-7b67-4842-bf6b-73aa65d7a41c",
+            "Value": {
+                "id": "7da57b9a-100f-4ad4-8422-bfbff857a89a",
+                "resourcePath": "scripts\\escapeMenuInputs\\escapeMenuInputs.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -340,6 +356,14 @@
                 "id": "9ea35d7c-6d48-4993-adb6-de6c96de249e",
                 "resourcePath": "views\\55d26697-93f1-4949-9ea4-3930276fe077.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5637a950-2fce-450d-805d-289d2c00a2ea",
+            "Value": {
+                "id": "07431f06-8eec-4233-9886-a0542e871649",
+                "resourcePath": "scripts\\setEscapeMenu\\setEscapeMenu.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -532,6 +556,14 @@
                 "id": "4425ffcf-2530-4fad-b036-4c10a9567c4c",
                 "resourcePath": "objects\\captainsChair\\captainsChair.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "926ae0a4-29f6-4149-8711-ed7b05840932",
+            "Value": {
+                "id": "8f492d7f-76e0-43fa-9e65-d8187a14e6b1",
+                "resourcePath": "scripts\\escapeMenuButton\\escapeMenuButton.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -855,6 +887,14 @@
             }
         },
         {
+            "Key": "f3f33e1d-226e-4643-a90a-65f99b642ef5",
+            "Value": {
+                "id": "3a6b3452-7d3d-4c06-8cfd-8eac567b3f56",
+                "resourcePath": "scripts\\optionMenuInput\\optionMenuInput.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "3b69dfd3-4375-4f5d-89a0-d0017019e5b4",
@@ -915,7 +955,12 @@
         "6d1c663b-8121-4258-a149-63d3477a3733",
         "6c3a94ef-b0a6-4633-a499-b517fd733c71",
         "6350f777-0824-4943-829f-4c6259fe9194",
-        "fbf03112-882d-4750-94c6-fec8d9ecfed6"
+        "fbf03112-882d-4750-94c6-fec8d9ecfed6",
+        "926ae0a4-29f6-4149-8711-ed7b05840932",
+        "22b92069-7b67-4842-bf6b-73aa65d7a41c",
+        "f3f33e1d-226e-4643-a90a-65f99b642ef5",
+        "5637a950-2fce-450d-805d-289d2c00a2ea",
+        "186307cf-441e-4de1-8728-7bde36c2d7bd"
     ],
     "tutorial": ""
 }
