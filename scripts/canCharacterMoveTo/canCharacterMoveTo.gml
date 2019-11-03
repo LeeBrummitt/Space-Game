@@ -1,5 +1,5 @@
-newX = argument0;
-newY = argument1;
+var newX = argument0;
+var newY = argument1;
 
 var success = true;
 

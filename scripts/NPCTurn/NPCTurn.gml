@@ -28,8 +28,6 @@ if(specialAbility == noone || !script_execute(specialAbility)){
 		x = round(x/global.xSize)*global.xSize;
 		y = round(y/global.xSize)*global.xSize;
 	
-		show_debug_message(x%global.xSize);
-		show_debug_message(y%global.ySize);
 	}
 }
 mp_grid_destroy(pathGrid);

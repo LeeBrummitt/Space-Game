@@ -16,13 +16,15 @@ for(var j = 0; j < instance_number(stuffToSave); j++){
 	ds_map_add(variableMap, "x", objectToSave.x);
 	ds_map_add(variableMap, "y", objectToSave.y);
 	ds_map_add(variableMap, "persistent", objectToSave.persistent);
+	ds_map_add(variableMap, "layer", objectToSave.layer);
 	var variablesToSave = variable_instance_get_names(objectToSave);
 	for(var k = 0; k < array_length_1d(variablesToSave); k++){
 		if(variablesToSave[k] != "inventory" && variablesToSave[k] != "equipment"){
 			ds_map_add(variableMap, variablesToSave[k], variable_instance_get(objectToSave, variablesToSave[k]));
 		}
 		else{
-			//TODO: Save inventory and equipment
+			//TODO: test the inventory/equipment after loading the game
+			ds_map_add(variableMap, variablesToSave[k], ds_grid_write(variable_instance_get(objectToSave, variablesToSave[k])));
 		}
 	}
 }
@@ -40,7 +42,20 @@ for(var i = 0; i < ds_map_size(global.savedRooms); i++){
 	}
 }
 
-//TODO: Save global variables
+//Save global variables
+var globalValues = ds_map_create();
+
+ds_map_add(globalValues, "hour", global.hour);
+ds_map_add(globalValues, "minute", global.minute);
+ds_map_add(globalValues, "day", global.day);
+ds_map_add(globalValues, "overworldRoom", global.overworldRoom);
+ds_map_add(globalValues, "overworldX", global.overworldX);
+ds_map_add(globalValues, "overworldY", global.overworldY);
+ds_map_add(globalValues, "playerName", global.playerName);
+ds_map_add(globalValues, "takingTurn", global.takingTurn);
+ds_map_add(globalValues, "turn", global.turn);
+
+ds_map_add_map(roomMap, "globalValues", globalValues);
 
 var stringToSave = json_encode(roomMap);
 

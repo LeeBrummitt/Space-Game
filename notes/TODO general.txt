@@ -8,3 +8,7 @@ TODO: Consider reworking inventory/equipment to use DSmaps, I like those.4
 
 TODO: use string_replace() and string_digits() to remove numbers from saved items
 
+TODO: Rework inventory to have a key on column 0 or add that as a comment
+
+TODO: The load script seems to let some NPCs take a turn when they shouldn't. Could be the
+save script isnt saving the NPCs who took a turn. Minor bug, ix this.

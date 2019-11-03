@@ -67,19 +67,19 @@ if (keyCooldown <= 0 && instance_find(genericMenu, 0) == noone){
 		// quicksave and quickload
 		// TODO: Make custom saving system
 		case vk_f5:
-			saveTheGame(working_directory + "Savegames\\" + global.playerName + "\\quicksave.sav");
 			keyCooldown = global.cooldownTime;
+			saveTheGame(working_directory + "Savegames\\" + global.playerName + "\\quicksave.sav");
 		break;
 		case vk_f9:
-			loadTheGame(working_directory + "Savegames\\" + global.playerName + "\\quicksave.sav");
 			keyCooldown = global.cooldownTime;
+			loadTheGame(working_directory + "Savegames\\" + global.playerName + "\\quicksave.sav");
 		break;
 		// generic use button
 		case vk_enter:
 			if (instance_position(x, y, captainsChair)){
 				x = global.overworldX;
 				y = global.overworldY;
-				room = global.overworldRoom;
+				room_goto(global.overworldRoom);
 				keyCooldown = global.cooldownTime;
 				turn = false;
 				global.takingTurn = false;
