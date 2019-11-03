@@ -263,6 +263,22 @@
             }
         },
         {
+            "Key": "2c7a2fbd-6324-4da5-b24d-89feb5006336",
+            "Value": {
+                "id": "082e582b-dc43-4058-bd9a-35411b79aae0",
+                "resourcePath": "scripts\\loadTheGame\\loadTheGame.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "300a25cd-b630-436e-9a0c-59de552f0d7d",
+            "Value": {
+                "id": "833c173f-8190-4065-af3f-23a487759f3d",
+                "resourcePath": "scripts\\checkRoomNeedsSave\\checkRoomNeedsSave.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "332a6af7-d766-4452-9c7d-44bb6933183a",
             "Value": {
                 "id": "6bcb12f7-956b-4661-8b73-99ae45f42ad9",
@@ -452,6 +468,14 @@
                 "id": "457d36e0-c41b-4017-929f-c627d61c07cd",
                 "resourcePath": "sprites\\spaceship_sprite_1\\spaceship_sprite_1.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "71a4cf79-cfd6-4744-a9e0-41c05f17f411",
+            "Value": {
+                "id": "6e63d2a7-9176-44c8-8dd2-d728f9d552a7",
+                "resourcePath": "objects\\stuffToSave\\stuffToSave.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -660,6 +684,14 @@
                 "id": "da5d958f-752b-4fdb-ad19-f47c15dff8f6",
                 "resourcePath": "objects\\gold\\gold.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "aae0266d-2016-4e26-9a71-6c8cdc25da24",
+            "Value": {
+                "id": "22e99f2f-fc00-4369-a690-39dc9e8023b3",
+                "resourcePath": "scripts\\saveTheGame\\saveTheGame.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -993,7 +1025,10 @@
         "f3f33e1d-226e-4643-a90a-65f99b642ef5",
         "5637a950-2fce-450d-805d-289d2c00a2ea",
         "186307cf-441e-4de1-8728-7bde36c2d7bd",
-        "feabe6a1-58d7-44fb-8935-d489182a01e1"
+        "feabe6a1-58d7-44fb-8935-d489182a01e1",
+        "aae0266d-2016-4e26-9a71-6c8cdc25da24",
+        "2c7a2fbd-6324-4da5-b24d-89feb5006336",
+        "300a25cd-b630-436e-9a0c-59de552f0d7d"
     ],
     "tutorial": ""
 }

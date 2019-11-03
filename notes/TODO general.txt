@@ -3,3 +3,8 @@ TODO: Make it so characters create a controller and output an error if none is f
 TODO: Make it so you can use better resolution settings
 
 TODO: Make a better menu system. 
+
+TODO: Consider reworking inventory/equipment to use DSmaps, I like those.4
+
+TODO: use string_replace() and string_digits() to remove numbers from saved items
+

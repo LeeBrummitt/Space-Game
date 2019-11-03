@@ -45,9 +45,16 @@ if(!variable_global_exists("overworldY")){
 	global.overworldY = 99;
 }
 
+// initialize room saver
+if(!variable_global_exists("savedRooms")){
+	global.savedRooms = ds_map_create();
+}
+
 //set font
 draw_set_font(openSans30);
 
 // stop old song and play new songs
 audio_group_stop_all(audiogroup_default);
 audio_play_sound(roomSong, 1, true);
+
+//TODO: Load room if necessary

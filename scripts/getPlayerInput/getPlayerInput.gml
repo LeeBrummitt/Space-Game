@@ -67,10 +67,12 @@ if (keyCooldown <= 0 && instance_find(genericMenu, 0) == noone){
 		// quicksave and quickload
 		// TODO: Make custom saving system
 		case vk_f5:
-			game_save(working_directory + "Savegames\\" + global.playerName + "\\quicksave.sav");
+			saveTheGame(working_directory + "Savegames\\" + global.playerName + "\\quicksave.sav");
+			keyCooldown = global.cooldownTime;
 		break;
 		case vk_f9:
-			game_load(working_directory + "Savegames\\" + global.playerName + "\\quicksave.sav");
+			loadTheGame(working_directory + "Savegames\\" + global.playerName + "\\quicksave.sav");
+			keyCooldown = global.cooldownTime;
 		break;
 		// generic use button
 		case vk_enter:
