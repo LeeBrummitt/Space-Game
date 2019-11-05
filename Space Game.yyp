@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "0e6bdff0-91a9-4bb7-95e8-f3f2ff337018",
+            "Value": {
+                "id": "b226afb6-1d76-435d-a3d6-e6aee4331c00",
+                "resourcePath": "scripts\\getClosestVisibleOpponent\\getClosestVisibleOpponent.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "10e8ed57-b986-4ea1-9815-51de957cc707",
             "Value": {
                 "id": "f07892e5-ff9f-4ac6-8fa5-1a07c0eb130b",
@@ -303,6 +311,14 @@
             }
         },
         {
+            "Key": "39363d3b-898d-48f6-97d1-53fee187a2af",
+            "Value": {
+                "id": "8aaf4436-794d-4b27-ba87-29c85945664f",
+                "resourcePath": "notes\\Ideas.yy",
+                "resourceType": "GMNotes"
+            }
+        },
+        {
             "Key": "39a38920-b14f-43cc-a9ce-0d5184fc759c",
             "Value": {
                 "id": "d0c2a1ab-8027-4fb1-a6dc-3a7440df174c",
@@ -388,6 +404,14 @@
                 "id": "07431f06-8eec-4233-9886-a0542e871649",
                 "resourcePath": "scripts\\setEscapeMenu\\setEscapeMenu.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "5f7daf9f-08e2-4212-8756-2884c90ddea4",
+            "Value": {
+                "id": "31ed3017-8894-44ef-b6f2-0d428364c83d",
+                "resourcePath": "sprites\\shipWalls\\shipWalls.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -727,6 +751,14 @@
             }
         },
         {
+            "Key": "b2dbac5e-5ca0-4c26-8551-12db3fdb0003",
+            "Value": {
+                "id": "64ae0cc4-860c-4326-a03e-f4e227ca4f4d",
+                "resourcePath": "objects\\spaceshipWall\\spaceshipWall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b7ebaf5e-65ad-4a4f-a771-c37925369867",
             "Value": {
                 "id": "3c8d7fd5-f740-4085-ade9-2d88dbe5e49a",
@@ -1031,6 +1063,7 @@
         "a176fb43-d6c1-4f64-b1b2-131858135573",
         "cef69fdf-b203-4387-8585-2b96e2154a56",
         "6cc5c165-a616-45cb-9fb4-ad9f4e477c5f",
+        "0e6bdff0-91a9-4bb7-95e8-f3f2ff337018",
         "8db12f0b-ba3d-4f74-9a00-7197a73c3c20",
         "6d1c663b-8121-4258-a149-63d3477a3733",
         "6c3a94ef-b0a6-4633-a499-b517fd733c71",

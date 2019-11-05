@@ -4,7 +4,7 @@ var success = false;
 
 for(var i = 0; i < ds_grid_width(inventoryToAddTo); i++){
 	//TODO: Check special
-	//TODO: Copy special properly
+	//TODO: Copy special properly when necessary
 	if(success == false 
 	&& ds_grid_get(inventoryToAddTo, i, 0) == object_get_name(itemToAdd.object_index)
 	&& ds_grid_get(inventoryToAddTo, i, 2) == itemToAdd.weight

@@ -61,7 +61,6 @@ draw_set_font(openSans30);
 audio_group_stop_all(audiogroup_default);
 audio_play_sound(roomSong, 1, true);
 
-show_debug_message(ds_map_find_value(global.savedRooms, room_get_name(room)));
 // Load room if necessary
 if(!is_undefined(ds_map_find_value(global.savedRooms, room_get_name(room)))){
 	show_debug_message("Loading Room...");
@@ -100,7 +99,12 @@ if(!is_undefined(ds_map_find_value(global.savedRooms, room_get_name(room)))){
 			if(tempKey2 != "inventory" && tempKey2 != "equipment"){
 				variable_instance_set(tempInstance, tempKey2, ds_map_find_value(tempMap2, tempKey2));
 			}else{
-				
+				//TODO: Make this better
+				if(tempKey2 == "inventory"){
+					ds_grid_read(tempInstance.inventory,  ds_map_find_value(tempMap2, tempKey2));
+				}else if(tempKey2 == "equipment"){
+					ds_grid_read(tempInstance.equipment,  ds_map_find_value(tempMap2, tempKey2));
+				}
 			}
 		}
 	}

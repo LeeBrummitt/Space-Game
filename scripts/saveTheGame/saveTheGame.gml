@@ -23,13 +23,12 @@ for(var j = 0; j < instance_number(stuffToSave); j++){
 			ds_map_add(variableMap, variablesToSave[k], variable_instance_get(objectToSave, variablesToSave[k]));
 		}
 		else{
-			//TODO: test the inventory/equipment after loading the game
 			ds_map_add(variableMap, variablesToSave[k], ds_grid_write(variable_instance_get(objectToSave, variablesToSave[k])));
 		}
 	}
 }
 
-//add reference  to global ds_map
+//add reference to the global ds_map which saves other rooms
 var tempKey;
 for(var i = 0; i < ds_map_size(global.savedRooms); i++){
 	if(i == 0){

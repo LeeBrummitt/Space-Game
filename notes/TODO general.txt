@@ -12,3 +12,14 @@ TODO: Rework inventory to have a key on column 0 or add that as a comment
 
 TODO: The load script seems to let some NPCs take a turn when they shouldn't. Could be the
 save script isnt saving the NPCs who took a turn. Minor bug, ix this.
+
+TODO: saving and loading look like they're working, but make sure. Not sure why some things I did fixed
+the program, but they do.
+
+TODO: Check saving/loading for memory leaks
+
+TODO: fix bug when loading that lets NPCs take their turns again
+
+TODO: Fix issue where a sprite's odd number of horisontal/vertical pixels can cause sprite distortion
+
+TODO: Make NPCs path to the last known location of an oponent if they lose sight of them

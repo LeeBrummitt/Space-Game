@@ -106,7 +106,6 @@ if (keyCooldown <= 0 && instance_find(genericMenu, 0) == noone){
 				global.takingTurn = false;
 			} else if(room == genericSpaceOverworld){
 				//TODO: consider using variables so we dont have to keep searching for items
-				//TODO: make sure there is a captains chair to go to
 				global.overworldRoom = room;
 				global.overworldX = x;
 				global.overworldY = y;

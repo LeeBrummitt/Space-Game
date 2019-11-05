@@ -1,5 +1,5 @@
 var pathGrid = mp_grid_create(17,17,room_width/global.xSize, room_height/global.ySize, global.xSize, global.ySize);
-var charac = getClosestOpponent();
+var charac = getClosestVisibleOpponent();
 var path = path_add();
 var tempCharac = undefined;
 
