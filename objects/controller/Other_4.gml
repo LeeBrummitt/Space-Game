@@ -96,7 +96,7 @@ if(!is_undefined(ds_map_find_value(global.savedRooms, room_get_name(room)))){
 				tempKey2 = ds_map_find_next(tempMap2, tempKey2);
 			}
 			//these have ds_grids and need to be handled seperately
-			if(tempKey2 != "inventory" && tempKey2 != "equipment"){
+			if(tempKey2 != "inventory" && tempKey2 != "equipment" && tempKey2 != "special"){
 				variable_instance_set(tempInstance, tempKey2, ds_map_find_value(tempMap2, tempKey2));
 			}else{
 				//TODO: Make this better
@@ -104,6 +104,8 @@ if(!is_undefined(ds_map_find_value(global.savedRooms, room_get_name(room)))){
 					ds_grid_read(tempInstance.inventory,  ds_map_find_value(tempMap2, tempKey2));
 				}else if(tempKey2 == "equipment"){
 					ds_grid_read(tempInstance.equipment,  ds_map_find_value(tempMap2, tempKey2));
+				}else if(tempKey2 == "special"){
+					ds_grid_read(tempInstance.special,  ds_map_find_value(tempMap2, tempKey2));
 				}
 			}
 		}

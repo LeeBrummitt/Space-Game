@@ -7,7 +7,16 @@
         
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "overriddenProperties": null,
+    "overriddenProperties": [
+        {
+            "id": "04c2398d-33fe-4ae6-b2a3-5aa6a774dbd6",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "65cbdbbd-b08a-4116-b991-304859c68c37",
+            "propertyId": "1aefae05-4721-423d-9c36-2e1184efcd62",
+            "value": "\"Unknowable Horror\""
+        }
+    ],
     "parentObjectId": "beb2aa87-7356-4523-b82d-01f85efd1af3",
     "persistent": false,
     "physicsAngularDamping": 0.1,

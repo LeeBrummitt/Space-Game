@@ -3,10 +3,12 @@
 
 if(inputCooldown <= 0){
 	switch(keyboard_key){
+		// go back to game
 		case vk_escape:	
 		case ord("I"):
 			instance_destroy();
 		break;
+		// go up/down one
 		case vk_up:
 		case vk_numpad8:
 			selectedItem--;
@@ -17,16 +19,36 @@ if(inputCooldown <= 0){
 			selectedItem++;
 			inputCooldown = global.cooldownTime;
 		break;
+		// "jump" a page
+		case vk_right:
+		case vk_numpad6:
+			selectedItem = min(selectedItem + itemsToShow, ds_grid_width(charac.inventory) - 1);
+			inputCooldown = global.cooldownTime;
+		break;
+		case vk_left:
+		case vk_numpad4:
+			selectedItem = max(0, selectedItem - itemsToShow);
+			inputCooldown = global.cooldownTime;
+		break;
+		// drop an item
+		case ord("D"):
+			if(ds_grid_width(charac.inventory) > 0){
+				var drop = instance_create_layer(-33, -33, "MiddleObjects", dropMenu)
+				drop.charac = charac;
+				drop.itemToDrop = selectedItem;
+				instance_destroy();
+			}
+		break;
 	}
 }else{
 	inputCooldown = inputCooldown - 1;
 }
 
 if(selectedItem < 0){
-	selectedItem = ds_grid_width(instance_find(player, 0).inventory) - 1;
+	selectedItem = ds_grid_width(charac.inventory) - 1;
 	firstPoint = selectedItem - (selectedItem % itemsToShow);
 	lastPoint = firstPoint + itemsToShow;
-} else if(selectedItem > ds_grid_width(instance_find(player, 0).inventory) - 1){
+} else if(selectedItem > ds_grid_width(charac.inventory) - 1){
 	selectedItem = 0;
 	firstPoint = 0;
 	lastPoint = itemsToShow;

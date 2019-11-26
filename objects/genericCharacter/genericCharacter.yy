@@ -111,6 +111,20 @@
             "varType": 2
         },
         {
+            "id": "e450b293-98ed-4b48-bb00-d39914dd4ec0",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "M",
+            "varName": "sex",
+            "varType": 2
+        },
+        {
             "id": "5dfc01b0-0047-49ad-a723-4dd22a3fe267",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -501,6 +515,43 @@
             "value": "noone",
             "varName": "sprite",
             "varType": 5
+        },
+        {
+            "id": "1aefae05-4721-423d-9c36-2e1184efcd62",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": [
+                "\"Neutral\"",
+                "\"Player\"",
+                "\"Pirate\"",
+                "\"Pirate Trader\"",
+                "\"AIP\"",
+                "\"UEI\"",
+                "\"Centralized Power\"",
+                "\"Unknowable Horror\""
+            ],
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "\"Neutral\"",
+            "varName": "faction",
+            "varType": 6
+        },
+        {
+            "id": "b9d450d3-a9f5-4629-95cb-a496f67ef10b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "angryAtPlayer",
+            "varType": 3
         }
     ],
     "solid": false,

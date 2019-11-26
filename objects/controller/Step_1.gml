@@ -3,7 +3,15 @@
 
 var charac;
 
-while(global.takingTurn == false && global.turn < 2000){
+if(instance_number(player) > 0 && instance_number(fogOfWar) == 0){
+	for(var i = 0; i <= room_width; i = i + global.xSize){
+		for(var j = 0; j <= room_height; j = j + global.ySize){
+			instance_create_layer(i, j, "TopObjects", fogOfWar);
+		}
+	}
+}
+
+while(instance_number(genericCharacter) > 0 && global.takingTurn == false && global.turn < 2000){
 	var i = 0;
 	while(i < instance_number(genericCharacter) && global.takingTurn == false){
 		charac = instance_find(genericCharacter,i);

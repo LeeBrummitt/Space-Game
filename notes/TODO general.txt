@@ -23,3 +23,9 @@ TODO: fix bug when loading that lets NPCs take their turns again
 TODO: Fix issue where a sprite's odd number of horisontal/vertical pixels can cause sprite distortion
 
 TODO: Make NPCs path to the last known location of an oponent if they lose sight of them
+
+TODO: Make sure item special is being saved/loaded peoperly
+
+TODO: Rework hostile to use faction check instead
+
+TODO: Make iputCooldown global

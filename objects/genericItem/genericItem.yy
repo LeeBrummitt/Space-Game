@@ -13,6 +13,16 @@
             "enumb": 0,
             "eventtype": 0,
             "m_owner": "04a1deb8-d15b-4b60-9172-7c650a6325b0"
+        },
+        {
+            "id": "dc089c5f-eabf-4dbf-a529-a04cc1801b8f",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 12,
+            "m_owner": "04a1deb8-d15b-4b60-9172-7c650a6325b0"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -73,48 +83,6 @@
             "value": "3",
             "varName": "value",
             "varType": 0
-        },
-        {
-            "id": "22688e69-84c0-4389-a5b6-de07e2f1aac0",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "damage",
-            "varType": 1
-        },
-        {
-            "id": "adb4f78c-dab1-4399-8f71-7525250be8de",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "armor",
-            "varType": 0
-        },
-        {
-            "id": "570b88f7-0e1e-4e69-b63f-acf57274aca7",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "",
-            "varName": "material",
-            "varType": 2
         }
     ],
     "solid": false,

@@ -39,6 +39,14 @@
             "objectId": "65cbdbbd-b08a-4116-b991-304859c68c37",
             "propertyId": "098cb179-f7e4-427d-9eaa-170d69a482bb",
             "value": "Human_Player"
+        },
+        {
+            "id": "59cb858a-f18e-4f2f-b299-55b269db2a06",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "65cbdbbd-b08a-4116-b991-304859c68c37",
+            "propertyId": "1aefae05-4721-423d-9c36-2e1184efcd62",
+            "value": "\"Player\""
         }
     ],
     "parentObjectId": "ff7cb96c-b10a-477c-99db-69f0c2bfe531",
