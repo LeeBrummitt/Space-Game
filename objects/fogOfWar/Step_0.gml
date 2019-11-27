@@ -11,6 +11,11 @@ if (tempObj != noone
 	|| !collision_line(x-global.xSize/2-1, y+global.ySize/2+1, tempObj.x, tempObj.y, genericWall, false, false)
 	|| !collision_line(x+global.xSize/2+1, y-global.ySize/2-1, tempObj.x, tempObj.y, genericWall, false, false)
 	|| !collision_line(x-global.xSize/2-1, y-global.ySize/2-1, tempObj.x, tempObj.y, genericWall, false, false)
+	
+	|| !collision_line(x+global.xSize/2+1, y, tempObj.x, tempObj.y, genericWall, false, false)
+	|| !collision_line(x-global.xSize/2-1, y, tempObj.x, tempObj.y, genericWall, false, false)
+	|| !collision_line(x, y+global.ySize/2+1, tempObj.x, tempObj.y, genericWall, false, false)
+	|| !collision_line(x, y-global.ySize/2-1, tempObj.x, tempObj.y, genericWall, false, false)
 	)
 	)
 	&& point_distance(x, y, tempObj.x, tempObj.y) <= 6*((global.xSize+global.ySize)/2)){

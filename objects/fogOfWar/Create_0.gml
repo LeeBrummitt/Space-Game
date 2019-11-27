@@ -4,6 +4,6 @@
 state = 0;
 
 // if its the ship or something make everything visible
-if(checkRoomNeedsSave(room)){
+if(checkRoomIsExplored(room)){
 	state = 2;
 }

@@ -5,7 +5,6 @@ var success = false;
 
 if (
 roomToCheck == playerShip
-|| roomToCheck == genericSpaceOverworld
 ){
 	success = true;
 }
