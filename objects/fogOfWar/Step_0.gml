@@ -18,7 +18,7 @@ if (tempObj != noone
 	|| !collision_line(x, y-global.ySize/2-1, tempObj.x, tempObj.y, genericWall, false, false)
 	)
 	)
-	&& point_distance(x, y, tempObj.x, tempObj.y) <= 6*((global.xSize+global.ySize)/2)){
+	&& point_distance(x, y, tempObj.x, tempObj.y) <= global.viewDistance*((global.xSize+global.ySize)/2)){
 	state = 2;
 }else if(state == 2){
 	state = 1;

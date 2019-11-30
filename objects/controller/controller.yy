@@ -65,6 +65,34 @@
             "value": "Standard",
             "varName": "roomSong",
             "varType": 5
+        },
+        {
+            "id": "7788b0fa-0c23-44ad-9570-8db2706afe52",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "saveMap",
+            "varType": 3
+        },
+        {
+            "id": "a0ba0958-1c18-4ec7-a1a8-5a09cb386342",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "startExplored",
+            "varType": 3
         }
     ],
     "solid": false,

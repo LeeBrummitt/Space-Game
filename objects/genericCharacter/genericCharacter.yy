@@ -391,20 +391,6 @@
             "varType": 1
         },
         {
-            "id": "00d88617-da3e-45f3-a4a0-c19eaecf7b1d",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "hostile",
-            "varType": 3
-        },
-        {
             "id": "c125fd23-fa4d-4d47-90d0-e20b4c5c360e",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -538,20 +524,6 @@
             "value": "\"Neutral\"",
             "varName": "faction",
             "varType": 6
-        },
-        {
-            "id": "b9d450d3-a9f5-4629-95cb-a496f67ef10b",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "angryAtPlayer",
-            "varType": 3
         }
     ],
     "solid": false,

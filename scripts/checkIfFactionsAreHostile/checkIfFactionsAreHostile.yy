@@ -1,8 +1,8 @@
 {
-    "id": "6cc5c165-a616-45cb-9fb4-ad9f4e477c5f",
+    "id": "4e255648-308b-406d-bfd7-9fb1eb775af7",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "getClosestOpponent",
+    "name": "checkIfFactionsAreHostile",
     "IsCompatibility": false,
     "IsDnD": false
 }

@@ -38,8 +38,8 @@ if (keyCooldown <= 0 && instance_find(genericMenu, 0) == noone){
 		// hit ranged button
 		case ord("F"):		
 			//TODO: Let player manually select target
-			if (checkCharacterCanRanged(id, getClosestOpponent())){
-				characterAttackRanged(id, getClosestOpponent());
+			if (checkCharacterCanRanged(id, getClosestVisibleOpponent())){
+				characterAttackRanged(id, getClosestVisibleOpponent());
 				keyCooldown = global.cooldownTime;
 				turn = false;
 				global.takingTurn = false;

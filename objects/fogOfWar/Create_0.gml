@@ -4,6 +4,6 @@
 state = 0;
 
 // if its the ship or something make everything visible
-if(checkRoomIsExplored(room)){
+if(instance_exists(controller) && instance_find(controller, 0).startExplored == true){
 	state = 2;
 }

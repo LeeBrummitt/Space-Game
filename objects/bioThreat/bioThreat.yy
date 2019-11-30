@@ -17,7 +17,7 @@
             "value": "\"Unknowable Horror\""
         }
     ],
-    "parentObjectId": "beb2aa87-7356-4523-b82d-01f85efd1af3",
+    "parentObjectId": "65cbdbbd-b08a-4116-b991-304859c68c37",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

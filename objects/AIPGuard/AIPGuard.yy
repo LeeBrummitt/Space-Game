@@ -33,7 +33,7 @@
             "value": "\"AIP\""
         }
     ],
-    "parentObjectId": "ff7cb96c-b10a-477c-99db-69f0c2bfe531",
+    "parentObjectId": "65cbdbbd-b08a-4116-b991-304859c68c37",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

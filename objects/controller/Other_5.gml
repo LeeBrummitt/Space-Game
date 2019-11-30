@@ -7,7 +7,7 @@ if(global.loadCleanup != true){
 		ds_map_delete(global.savedRooms, room_get_name(room));
 	}
 
-	if(checkRoomNeedsSave(room)){
+	if(saveMap == true){
 		var objectMap = ds_map_create();
 		ds_map_add_map(global.savedRooms, room_get_name(room), objectMap);
 		for(var j = 0; j < instance_number(stuffToSave); j++){

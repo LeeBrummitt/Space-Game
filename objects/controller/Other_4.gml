@@ -54,6 +54,11 @@ if(!variable_global_exists("loadCleanup")){
 	global.loadCleanup = false;
 }
 
+//set view distance size
+if(!variable_global_exists("viewDistance")){
+	global.viewDistance = 6;
+}
+
 //set font
 draw_set_font(openSans30);
 

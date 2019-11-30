@@ -32,3 +32,6 @@ if(specialAbility == noone || !script_execute(specialAbility)){
 }
 mp_grid_destroy(pathGrid);
 path_delete(path);
+
+turn = false;
+global.takingTurn = false;

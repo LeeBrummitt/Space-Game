@@ -9,7 +9,6 @@ if(isPlayer == false && turn == true){
 	ppMax = calculateMaxPsionicPoints();
 	stmMax = calculateMaxStamina();
 	NPCTurn();
-	endTurnCharacter();
 }
 else if (isPlayer == true && turn == true){
 	// update max HP
