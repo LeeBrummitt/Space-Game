@@ -439,6 +439,14 @@
             }
         },
         {
+            "Key": "519aded4-d566-4d98-99ba-06a3f6ad2f62",
+            "Value": {
+                "id": "10ccbfc6-2c95-4c87-a114-76986f2e752d",
+                "resourcePath": "objects\\loadCharacterMenu\\loadCharacterMenu.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "51ca2a52-e926-4cef-917b-991e4978cd2b",
             "Value": {
                 "id": "70590f9e-f80f-46d0-a007-9a8d819de3d5",
@@ -700,6 +708,14 @@
                 "id": "5e4b7535-a837-44ed-921e-f159f28c969f",
                 "resourcePath": "scripts\\endOfTurnUpdate\\endOfTurnUpdate.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "8e5169cc-285d-4463-8407-0be34c2afb09",
+            "Value": {
+                "id": "48d9aa77-04a1-46cf-aacd-96724d818677",
+                "resourcePath": "objects\\loadFileMenu\\loadFileMenu.yy",
+                "resourceType": "GMObject"
             }
         },
         {

@@ -8,7 +8,8 @@ if(inputCooldown <= 0){
 			instance_destroy();
 		break;
 		case ord("L"):
-			//TODO: Make a load menu
+			instance_create_layer(0, 0, "MiddleObjects", loadCharacterMenu);
+			instance_destroy();
 		break;
 		case ord("Q"):
 			game_end();
