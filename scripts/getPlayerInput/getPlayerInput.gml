@@ -136,4 +136,11 @@ if (keyCooldown <= 0 && instance_find(genericMenu, 0) == noone){
 			keyCooldown = global.cooldownTime;
 		break;
 	}
+	
+	//make time go faster in an overworld, etc
+	//TODO: Add random encounters
+	if(turn == false && instance_find(controller, 0) != noone && instance_find(controller, 0).overworld == true){
+		global.minute++;
+		updateTime();
+	}
 }

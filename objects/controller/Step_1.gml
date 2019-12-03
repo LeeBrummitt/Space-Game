@@ -41,7 +41,8 @@ while(instance_number(genericCharacter) > 0 && global.takingTurn == false && glo
 if (global.turn >= 2000){
 	global.turn = 0;
 	global.minute++;
-	updateTime();
 }
+
+updateTime();
 
 display_set_gui_size(window_get_width(), window_get_height());

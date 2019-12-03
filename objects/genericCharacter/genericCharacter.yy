@@ -97,20 +97,6 @@
             "varType": 2
         },
         {
-            "id": "f3157414-b829-4f24-9112-f932a3095552",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "civilian",
-            "varName": "className",
-            "varType": 2
-        },
-        {
             "id": "e450b293-98ed-4b48-bb00-d39914dd4ec0",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -501,6 +487,27 @@
             "value": "noone",
             "varName": "sprite",
             "varType": 5
+        },
+        {
+            "id": "f3157414-b829-4f24-9112-f932a3095552",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": [
+                "\"Civillian\"",
+                "\"Soldier\"",
+                "\"Trader\"",
+                "\"Doctor\"",
+                "\"Farmer\"",
+                "\"Predator\""
+            ],
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "\"Civillian\"",
+            "varName": "className",
+            "varType": 6
         },
         {
             "id": "1aefae05-4721-423d-9c36-2e1184efcd62",

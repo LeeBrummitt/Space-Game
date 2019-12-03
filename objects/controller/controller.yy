@@ -93,6 +93,20 @@
             "value": "0",
             "varName": "startExplored",
             "varType": 3
+        },
+        {
+            "id": "6a34473c-7107-424c-87a8-4f2c86cc1638",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "overworld",
+            "varType": 3
         }
     ],
     "solid": false,
