@@ -1,6 +1,10 @@
-character1 = argument0;
-character2 = argument1;
+var character1 = argument0;
+var character2 = argument1;
 
-argument1.hp = argument1.hp - argument0.strength;
+var damage = character1.strength;
+
+character2.hp = character2.hp - damage;
+
+characterIncreaseSkillLevel(character1, "strength", (damage/power(character1.strength,3)));
 
 audio_play_sound(hit, 1, false);
