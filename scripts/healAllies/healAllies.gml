@@ -3,7 +3,9 @@ var success = false;
 
 for(var i = 0; i < instance_number(genericCharacter) && success = false; i++){
 	temp = instance_find(genericCharacter,i);
-	if(!checkIfFactionsAreHostile(id, temp) && temp.hp < temp.hpMax && checkCharacterCanRanged(id, temp)){
+	if(!checkIfFactionsAreHostile(id, temp) 
+	&& temp.hp < temp.hpMax && checkCharacterCanRanged(id, temp)
+	&& isCharacterInViewRange(id, temp)){
 		temp.hp = min(temp.hpMax, round(temp.hp+intelligence));
 		audio_play_sound(heal, 1, false);
 		success = true;

@@ -1,7 +1,7 @@
 // should search a 1d array for an item. Returns1 if found, 0 if not.
 
-arr = argument0;
-item = argument1;
+var arr = argument0;
+var item = argument1;
 
 var success = undefined;
 

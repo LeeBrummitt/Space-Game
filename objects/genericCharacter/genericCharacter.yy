@@ -125,7 +125,7 @@
             "varType": 0
         },
         {
-            "id": "6e834be6-971e-4a5e-9416-0b8a38fc32e7",
+            "id": "216b95cf-d55e-4ffa-ab68-ae475f4783c2",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -486,6 +486,20 @@
             "resourceFilter": 1023,
             "value": "noone",
             "varName": "sprite",
+            "varType": 5
+        },
+        {
+            "id": "d3feffa0-ea6e-48bb-97b2-ad275276a383",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 2,
+            "value": "blueSprite",
+            "varName": "face",
             "varType": 5
         },
         {

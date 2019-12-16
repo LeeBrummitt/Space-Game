@@ -3,7 +3,7 @@
 
 var tempObj = instance_find(player, 0);
 
-if (tempObj == noone || point_distance(x, y, tempObj.x, tempObj.y) <= 6*((global.xSize+global.ySize)/2)
+if (tempObj == noone || point_distance(x, y, tempObj.x, tempObj.y) <= global.viewDistance*((global.xSize+global.ySize)/2)
 && !collision_line(x, y, tempObj.x, tempObj.y, genericWall, false, false) || isPlayer == true){
 	draw_self();
 	

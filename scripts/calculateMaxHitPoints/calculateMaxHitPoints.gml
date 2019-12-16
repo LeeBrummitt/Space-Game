@@ -1,1 +1,1 @@
-return 100+10*constitution+2*strength;
+return 50+5*constitution+strength;

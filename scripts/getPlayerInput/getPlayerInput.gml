@@ -135,6 +135,10 @@ if (keyCooldown <= 0 && instance_find(genericMenu, 0) == noone){
 			}
 			keyCooldown = global.cooldownTime;
 		break;
+		case ord("C"):
+			instance_create_layer(-33, 0, "MiddleObjects", characterMenu);
+			keyCooldown = global.cooldownTime;
+		break;
 	}
 	
 	//make time go faster in an overworld, etc

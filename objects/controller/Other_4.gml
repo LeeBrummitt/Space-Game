@@ -56,7 +56,7 @@ if(!variable_global_exists("loadCleanup")){
 
 //set view distance size
 if(!variable_global_exists("viewDistance")){
-	global.viewDistance = 6;
+	global.viewDistance = 6.5;
 }
 
 //set font

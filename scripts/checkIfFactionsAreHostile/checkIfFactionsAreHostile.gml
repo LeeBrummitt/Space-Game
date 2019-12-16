@@ -1,5 +1,5 @@
-charac1 = argument0;
-charac2 = argument1;
+var charac1 = argument0;
+var charac2 = argument1;
 
 var hostile = false;
 
