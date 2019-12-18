@@ -24,3 +24,5 @@ if (success == false){
 	ds_grid_set(inventoryToAddTo, ds_grid_width(inventoryToAddTo)-1, 3, itemToAdd.value);
 	ds_grid_set(inventoryToAddTo, ds_grid_width(inventoryToAddTo)-1, 4, ds_grid_write(itemToAdd.special));
 }
+
+ds_grid_sort_2(inventoryToAddTo, 0, true);

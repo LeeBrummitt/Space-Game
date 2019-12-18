@@ -29,3 +29,5 @@ TODO: Make iputCooldown global
 TODO: Consider switching from obkects to tilesets
 
 TODO: Add experiance gain for all relevent things
+
+TODO: Check item droping for memory leaks

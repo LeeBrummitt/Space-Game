@@ -128,15 +128,24 @@ if (keyCooldown <= 0 && instance_find(genericMenu, 0) == noone){
 			instance_create_layer(-33, 0, "MiddleObjects", inventoryMenu);
 			keyCooldown = global.cooldownTime;
 		break;
+		//grab item
 		case ord("G"):
-			if(instance_position(x, y, genericItem) != noone){
-				addItemToInventory(instance_position(x, y, genericItem), inventory);
-				instance_destroy(instance_position(x, y, genericItem));
+			var invItem = instance_position(x, y, genericItem)
+			if(invItem != noone){
+				addItemToInventory(invItem, inventory);
+				instance_destroy(invItem);
 			}
 			keyCooldown = global.cooldownTime;
 		break;
+		//bring up character menu
 		case ord("C"):
 			instance_create_layer(-33, 0, "MiddleObjects", characterMenu);
+			keyCooldown = global.cooldownTime;
+		break;
+		//open equipment menu
+		//bring up inventory
+		case ord("E"):
+			instance_create_layer(-33, 0, "MiddleObjects", equipmentMenu);
 			keyCooldown = global.cooldownTime;
 		break;
 	}

@@ -5,7 +5,7 @@ if(inputCooldown <= 0){
 	switch(keyboard_key){
 		// go back to game
 		case vk_escape:	
-		case ord("I"):
+		case ord("C"):
 			instance_destroy();
 		break;
 		// go up/down one

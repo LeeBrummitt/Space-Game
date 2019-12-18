@@ -24,5 +24,5 @@ if(!variable_global_exists("playerName") && isPlayer == true){
 
 // name, number, weight, value, special
 inventory = ds_grid_create(0,5);
-equipment = ds_grid_create(0,5);
+equipment = createEquipment(heads, hands, chests, brainSlots, legs);
 

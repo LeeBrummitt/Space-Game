@@ -1,6 +1,7 @@
 /// @description handle character movenent, etc
 // You can write your code in this editor
 
+// fix inventory
 removeEmptyInventoryItems();
 
 if(isPlayer == false && turn == true){

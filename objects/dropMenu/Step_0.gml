@@ -149,6 +149,14 @@ if(inputCooldown <= 0){
 				createdObject.weight = ds_grid_get(charac.inventory, itemToDrop, 2);
 				createdObject.value = ds_grid_get(charac.inventory, itemToDrop, 3);
 				ds_grid_read(createdObject.special, ds_grid_get(charac.inventory, itemToDrop, 4));
+				
+				// set object's special attributes
+				for(var i = 0; i < ds_grid_height(createdObject.special); i++){
+					var name = ds_grid_get(createdObject.special, 0, i);
+					var val = ds_grid_get(createdObject.special, 1, i);
+					variable_instance_set(createdObject, name, val);
+				}
+				
 				ds_grid_set(charac.inventory, itemToDrop, 1, ds_grid_get(charac.inventory, itemToDrop, 1) - real(numberString));
 			}
 			instance_destroy();

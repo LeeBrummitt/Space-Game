@@ -15,6 +15,14 @@
             "objectId": "65cbdbbd-b08a-4116-b991-304859c68c37",
             "propertyId": "536bf94c-83d5-40c2-80f5-e9e6bd8e20cb",
             "value": "healAllies"
+        },
+        {
+            "id": "bd164f96-fec9-476a-8921-8ce8170b2d0d",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "65cbdbbd-b08a-4116-b991-304859c68c37",
+            "propertyId": "c125fd23-fa4d-4d47-90d0-e20b4c5c360e",
+            "value": "True"
         }
     ],
     "parentObjectId": "65cbdbbd-b08a-4116-b991-304859c68c37",
