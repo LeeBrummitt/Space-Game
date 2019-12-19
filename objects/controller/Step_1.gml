@@ -3,6 +3,11 @@
 
 var charac;
 
+//decrease key cooldown
+if (global.keyCooldown > 0){
+	global.keyCooldown--;
+}
+
 if(instance_number(player) > 0 && instance_number(fogOfWar) == 0){
 	for(var i = 0; i <= room_width; i = i + global.xSize){
 		for(var j = 0; j <= room_height; j = j + global.ySize){

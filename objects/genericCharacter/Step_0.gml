@@ -4,23 +4,30 @@
 // fix inventory
 removeEmptyInventoryItems();
 
-if(isPlayer == false && turn == true){
-	// update max HP
-	hpMax = calculateMaxHitPoints();
-	ppMax = calculateMaxPsionicPoints();
-	stmMax = calculateMaxStamina();
-	NPCTurn();
+if(turn == true){
+	if(isPlayer == false && turn == true){
+		// update max HP
+		hpMax = calculateMaxHitPoints();
+		ppMax = calculateMaxPsionicPoints();
+		stmMax = calculateMaxStamina();
+		NPCTurn();
+	}
+	else if (isPlayer == true && turn == true){
+		// update max HP
+		hpMax = calculateMaxHitPoints();
+		ppMax = calculateMaxPsionicPoints();
+		stmMax = calculateMaxStamina();
+		getPlayerInput();
+	}
+	
+	if(turn == false){
+		//TODO: Change this later
+		hp = min(hp + hpMax/100, hpMax);
+		pp = min(pp + ppMax/100, hpMax);
+		stm = min(stm + stmMax/100, hpMax);
+	}
 }
-else if (isPlayer == true && turn == true){
-	// update max HP
-	hpMax = calculateMaxHitPoints();
-	ppMax = calculateMaxPsionicPoints();
-	stmMax = calculateMaxStamina();
-	getPlayerInput();
-}
-if (keyCooldown > 0 && instance_find(genericMenu, 0) == noone){
-	keyCooldown--;
-}
+
 // change sprite if it doesn't match the one saved
 // only do this if we needed to set this specially
 // for saving shapeshifters, etc

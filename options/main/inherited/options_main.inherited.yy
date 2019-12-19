@@ -5,7 +5,8 @@
     "option_gameguid": "bc4cf35d-3cac-48a3-8aea-576d9fcfea5e",
     "option_game_speed": 60
 }←1225f6b0-ac20-43bd-a82e-be73fa0b6f4f|{
-    "targets": 461609314234257646
+    "targets": 461609314234257646,
+    "autocrop": false
 }←7fa50043-cea6-4cd0-9521-a8ba8c6ea9f0|{
     "audioGroups": {
         "Additions": [

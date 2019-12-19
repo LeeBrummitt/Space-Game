@@ -1,4 +1,4 @@
-if (keyCooldown <= 0 && instance_find(genericMenu, 0) == noone){
+if (global.keyCooldown <= 0 && instance_find(genericMenu, 0) == noone){
 	switch(keyboard_key){
 		// movement keys
 		case vk_numpad1:
@@ -31,7 +31,7 @@ if (keyCooldown <= 0 && instance_find(genericMenu, 0) == noone){
 		break;
 		// skip turn button
 		case vk_numpad5:		
-			keyCooldown = global.cooldownTime;
+			global.keyCooldown = global.cooldownTime;
 			turn = false;
 			global.takingTurn = false;
 		break;
@@ -40,23 +40,25 @@ if (keyCooldown <= 0 && instance_find(genericMenu, 0) == noone){
 			//TODO: Let player manually select target
 			if (checkCharacterCanRanged(id, getClosestVisibleOpponent())){
 				characterAttackRanged(id, getClosestVisibleOpponent());
-				keyCooldown = global.cooldownTime;
+				global.keyCooldown = global.cooldownTime;
 				turn = false;
 				global.takingTurn = false;
 			}
 		break;
+		/*
 		// fullscreen toggle
 		case vk_f11:
-			keyCooldown = global.cooldownTime;
+			global.keyCooldown = global.cooldownTime;
 			if(window_get_fullscreen() == false){
 				window_set_fullscreen(true);
 			}else{
 				window_set_fullscreen(false);
 			}
 		break;
+		*/
 		// screenshot
 		case vk_f12:
-			keyCooldown = global.cooldownTime;
+			global.keyCooldown = global.cooldownTime;
 			var i = 0;
 			for(i = 0; file_exists(working_directory + "Screenshots\\" + string(i) + ".png"); i++){
 				show_debug_message("Filename exists, continuing...")
@@ -67,11 +69,11 @@ if (keyCooldown <= 0 && instance_find(genericMenu, 0) == noone){
 		// quicksave and quickload
 		// TODO: Make custom saving system
 		case vk_f5:
-			keyCooldown = global.cooldownTime;
+			global.keyCooldown = global.cooldownTime;
 			saveTheGame(working_directory + "Savegames\\" + global.playerName + "\\quicksave.dat");
 		break;
 		case vk_f9:
-			keyCooldown = global.cooldownTime;
+			global.keyCooldown = global.cooldownTime;
 			loadTheGame(working_directory + "Savegames\\" + global.playerName + "\\quicksave.dat");
 		break;
 		// generic use button
@@ -80,7 +82,7 @@ if (keyCooldown <= 0 && instance_find(genericMenu, 0) == noone){
 				x = global.overworldX;
 				y = global.overworldY;
 				room_goto(global.overworldRoom);
-				keyCooldown = global.cooldownTime;
+				global.keyCooldown = global.cooldownTime;
 				turn = false;
 				global.takingTurn = false;
 			}else if (instance_position(x, y, genericRoomTransitioner) && room == genericSpaceOverworld){
@@ -92,7 +94,7 @@ if (keyCooldown <= 0 && instance_find(genericMenu, 0) == noone){
 				x = instance_position(xtemp, ytemp, genericRoomTransitioner).roomToGoToX;
 				y = instance_position(xtemp, ytemp, genericRoomTransitioner).roomToGoToY;
 				room_goto(instance_position(xtemp, ytemp, genericRoomTransitioner).roomToGoTo);
-				keyCooldown = global.cooldownTime;
+				global.keyCooldown = global.cooldownTime;
 				turn = false;
 				global.takingTurn = false;
 			} else if (instance_position(x, y, genericRoomTransitioner)){
@@ -101,7 +103,7 @@ if (keyCooldown <= 0 && instance_find(genericMenu, 0) == noone){
 				x = instance_position(xtemp, ytemp, genericRoomTransitioner).roomToGoToX;
 				y = instance_position(xtemp, ytemp, genericRoomTransitioner).roomToGoToY;
 				room_goto(instance_position(xtemp, ytemp, genericRoomTransitioner).roomToGoTo);
-				keyCooldown = global.cooldownTime;
+				global.keyCooldown = global.cooldownTime;
 				turn = false;
 				global.takingTurn = false;
 			} else if(room == genericSpaceOverworld){
@@ -112,7 +114,7 @@ if (keyCooldown <= 0 && instance_find(genericMenu, 0) == noone){
 				room_goto(playerShip);
 				x = 561;
 				y = 165;
-				keyCooldown = global.cooldownTime;
+				global.keyCooldown = global.cooldownTime;
 				turn = false;
 				global.takingTurn = false;
 			}
@@ -121,12 +123,12 @@ if (keyCooldown <= 0 && instance_find(genericMenu, 0) == noone){
 		case vk_escape:
 			var escmen = instance_create_layer(-33, 0, "MiddleObjects", escapeMenu);
 			setEscapeMenu(escmen);
-			keyCooldown = global.cooldownTime;
+			global.keyCooldown = global.cooldownTime;
 		break;
 		//bring up inventory
 		case ord("I"):
 			instance_create_layer(-33, 0, "MiddleObjects", inventoryMenu);
-			keyCooldown = global.cooldownTime;
+			global.keyCooldown = global.cooldownTime;
 		break;
 		//grab item
 		case ord("G"):
@@ -135,18 +137,18 @@ if (keyCooldown <= 0 && instance_find(genericMenu, 0) == noone){
 				addItemToInventory(invItem, inventory);
 				instance_destroy(invItem);
 			}
-			keyCooldown = global.cooldownTime;
+			global.keyCooldown = global.cooldownTime;
 		break;
 		//bring up character menu
 		case ord("C"):
 			instance_create_layer(-33, 0, "MiddleObjects", characterMenu);
-			keyCooldown = global.cooldownTime;
+			global.keyCooldown = global.cooldownTime;
 		break;
 		//open equipment menu
 		//bring up inventory
 		case ord("E"):
 			instance_create_layer(-33, 0, "MiddleObjects", equipmentMenu);
-			keyCooldown = global.cooldownTime;
+			global.keyCooldown = global.cooldownTime;
 		break;
 	}
 	

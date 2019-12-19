@@ -260,7 +260,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "60",
+            "value": "10",
             "varName": "quickness",
             "varType": 0
         },
@@ -274,7 +274,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
+            "value": "50",
             "varName": "quicknessEfficiency",
             "varType": 1
         },
@@ -288,7 +288,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
+            "value": "10",
             "varName": "luck",
             "varType": 0
         },
@@ -316,8 +316,8 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "1",
-            "varName": "health",
+            "value": "10",
+            "varName": "healthMultiplier",
             "varType": 1
         },
         {
@@ -330,8 +330,8 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "1",
-            "varName": "psionicPower",
+            "value": "10",
+            "varName": "psionicPowerMultiplier",
             "varType": 1
         },
         {

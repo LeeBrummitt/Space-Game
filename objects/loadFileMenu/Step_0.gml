@@ -9,7 +9,7 @@ while(files[i] != ""){
 	files[i] = file_find_next();
 }
 
-if(inputCooldown <= 0){
+if(global.keyCooldown <= 0){
 	switch(keyboard_key){
 		// go back to other menu
 		case vk_escape:	
@@ -17,36 +17,36 @@ if(inputCooldown <= 0){
 			newmenu.previousMenu = escapeMenu;
 			newmenu.previousMenuScript = setMainMenu;
 			instance_destroy();
+			global.keyCooldown = global.cooldownTime;
 		break;
 		// go up/down one
 		case vk_up:
 		case vk_numpad8:
 			selectedItem--;
-			inputCooldown = global.cooldownTime;
+			global.keyCooldown = global.cooldownTime;
 		break;
 		case vk_down:
 		case vk_numpad2:
 			selectedItem++;
-			inputCooldown = global.cooldownTime;
+			global.keyCooldown = global.cooldownTime;
 		break;
 		// "jump" a page
 		case vk_right:
 		case vk_numpad6:
 			selectedItem = min(selectedItem + itemsToShow, array_length_1d(files) - 2);
-			inputCooldown = global.cooldownTime;
+			global.keyCooldown = global.cooldownTime;
 		break;
 		case vk_left:
 		case vk_numpad4:
 			selectedItem = max(0, selectedItem - itemsToShow);
-			inputCooldown = global.cooldownTime;
+			global.keyCooldown = global.cooldownTime;
 		break;
 		// select an option
 		case vk_enter:	
 			loadTheGame(working_directory + "Savegames\\" + character + "\\" + files[selectedItem]);
+			global.keyCooldown = global.cooldownTime;
 		break;
 	}
-}else{
-	inputCooldown = inputCooldown - 1;
 }
 
 if(selectedItem < 0){

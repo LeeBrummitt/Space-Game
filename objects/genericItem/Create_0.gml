@@ -12,8 +12,8 @@ for(var i = 0; i < array_length_1d(variablesToSave); i++){
 	&& variablesToSave[i] != "value"
 	&& variablesToSave[i] != "special"){
 		ds_grid_resize(special, ds_grid_width(special), ds_grid_height(special) + 1);
-		ds_grid_set(special, 0, j, variablesToSave[i]);
-		ds_grid_set(special, 1, j, variable_instance_get(id, variablesToSave[i]));
+		ds_grid_set(special, 0, j, variable_instance_get(id, variablesToSave[i]));
+		ds_grid_set(special, 1, j, variablesToSave[i]);
 		j++;
 	}
 }

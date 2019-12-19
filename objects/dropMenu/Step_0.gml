@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(inputCooldown <= 0){
+if(global.keyCooldown <= 0){
 	switch(keyboard_key){
 		// go back to inventory
 		case vk_escape:	
@@ -9,6 +9,7 @@ if(inputCooldown <= 0){
 			inv.charac = charac;
 			inv.selectedItem = itemToDrop;
 			instance_destroy();
+			global.keyCooldown = global.cooldownTime;
 		break;
 		//get keyboard input for numbers
 		case vk_numpad0:
@@ -21,7 +22,7 @@ if(inputCooldown <= 0){
 				numberString = numberToAddToString;
 			}
 			show_debug_message(numberString);
-			inputCooldown = global.cooldownTime;
+			global.keyCooldown = global.cooldownTime;
 		break;
 		case vk_numpad1:
 		case ord("1"):
@@ -33,7 +34,7 @@ if(inputCooldown <= 0){
 				numberString = numberToAddToString;
 			}
 			show_debug_message(numberString);
-			inputCooldown = global.cooldownTime;
+			global.keyCooldown = global.cooldownTime;
 		break;
 		case vk_numpad2:
 		case ord("2"):
@@ -45,7 +46,7 @@ if(inputCooldown <= 0){
 				numberString = numberToAddToString;
 			}
 			show_debug_message(numberString);
-			inputCooldown = global.cooldownTime;
+			global.keyCooldown = global.cooldownTime;
 		break;
 		case vk_numpad3:
 		case ord("3"):
@@ -57,7 +58,7 @@ if(inputCooldown <= 0){
 				numberString = numberToAddToString;
 			}
 			show_debug_message(numberString);
-			inputCooldown = global.cooldownTime;
+			global.keyCooldown = global.cooldownTime;
 		break;
 		case vk_numpad4:
 		case ord("4"):
@@ -69,7 +70,7 @@ if(inputCooldown <= 0){
 				numberString = numberToAddToString;
 			}
 			show_debug_message(numberString);
-			inputCooldown = global.cooldownTime;
+			global.keyCooldown = global.cooldownTime;
 		break;
 		case vk_numpad5:
 		case ord("5"):
@@ -81,7 +82,7 @@ if(inputCooldown <= 0){
 				numberString = numberToAddToString;
 			}
 			show_debug_message(numberString);
-			inputCooldown = global.cooldownTime;
+			global.keyCooldown = global.cooldownTime;
 		break;
 		case vk_numpad6:
 		case ord("6"):
@@ -93,7 +94,7 @@ if(inputCooldown <= 0){
 				numberString = numberToAddToString;
 			}
 			show_debug_message(numberString);
-			inputCooldown = global.cooldownTime;
+			global.keyCooldown = global.cooldownTime;
 		break;
 		case vk_numpad7:
 		case ord("7"):
@@ -105,7 +106,7 @@ if(inputCooldown <= 0){
 				numberString = numberToAddToString;
 			}
 			show_debug_message(numberString);
-			inputCooldown = global.cooldownTime;
+			global.keyCooldown = global.cooldownTime;
 		break;
 		case vk_numpad8:
 		case ord("8"):
@@ -117,7 +118,7 @@ if(inputCooldown <= 0){
 				numberString = numberToAddToString;
 			}
 			show_debug_message(numberString);
-			inputCooldown = global.cooldownTime;
+			global.keyCooldown = global.cooldownTime;
 		break;
 		case vk_numpad9:
 		case ord("9"):
@@ -129,7 +130,7 @@ if(inputCooldown <= 0){
 				numberString = numberToAddToString;
 			}
 			show_debug_message(numberString);
-			inputCooldown = global.cooldownTime;
+			global.keyCooldown = global.cooldownTime;
 		break;
 		//delete last character
 		case vk_backspace:
@@ -138,7 +139,7 @@ if(inputCooldown <= 0){
 				numberString = "0";
 			}
 			show_debug_message(numberString);
-			inputCooldown = global.cooldownTime;
+			global.keyCooldown = global.cooldownTime;
 		break;
 		//confirm number
 		case vk_enter:
@@ -160,10 +161,9 @@ if(inputCooldown <= 0){
 				ds_grid_set(charac.inventory, itemToDrop, 1, ds_grid_get(charac.inventory, itemToDrop, 1) - real(numberString));
 			}
 			instance_destroy();
+			global.keyCooldown = global.cooldownTime;
 		break;
 	}
-}else{
-	inputCooldown = inputCooldown - 1;
 }
 
 if (real(numberString) > ds_grid_get(charac.inventory, itemToDrop, 1)){

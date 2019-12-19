@@ -1,7 +1,21 @@
 /// @description set global variables, etc
 // You can write your code in this editor
 
-//characterTurns = undefined;
+if(file_exists("settings.ini")){
+	loadSettings();
+}
+
+//initialize global setings if not loaded
+if(!variable_global_exists("fullscreen")){
+	global.fullscreen = false;
+}
+
+if(!variable_global_exists("music")){
+	global.music = true;
+}
+
+//apply settings
+window_set_fullscreen(global.fullscreen);
 
 //variable to avoid begin step for controller if
 // a character is taking a turn
@@ -59,12 +73,24 @@ if(!variable_global_exists("viewDistance")){
 	global.viewDistance = 6.5;
 }
 
+//set key cooldown
+if(!variable_global_exists("global.keyCooldown")){
+	global.keyCooldown = global.cooldownTime;
+}
+
+//save settings if file doesn't exist
+if(!file_exists("settings.ini")){
+	saveSettings()
+}
+
 //set font
 draw_set_font(openSans30);
 
 // stop old song and play new songs
 audio_group_stop_all(audiogroup_default);
-audio_play_sound(roomSong, 1, true);
+if(global.music == true){
+	audio_play_sound(roomSong, 1, true);
+}
 
 // Load room if necessary
 if(!is_undefined(ds_map_find_value(global.savedRooms, room_get_name(room)))){

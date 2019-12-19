@@ -1,6 +1,10 @@
 /// @description create inventory, health, etc
 // You can write your code in this editor
 
+// name, number, weight, value, special
+inventory = ds_grid_create(0,5);
+equipment = createEquipment(heads, hands, chests, brainSlots, legs);
+
 randomize()
 sex = choose("M", "F");
 if(sex == "M"){
@@ -15,14 +19,8 @@ stmMax = calculateMaxStamina();
 hp = hpMax;
 pp = ppMax;
 stm = stmMax;
-keyCooldown = 0;
 
 //set global player name if you are player
 if(!variable_global_exists("playerName") && isPlayer == true){
 	global.playerName = characterName;
 }
-
-// name, number, weight, value, special
-inventory = ds_grid_create(0,5);
-equipment = createEquipment(heads, hands, chests, brainSlots, legs);
-

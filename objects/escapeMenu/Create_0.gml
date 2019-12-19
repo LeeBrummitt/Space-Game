@@ -6,7 +6,7 @@ if(!variable_global_exists("cooldownTime")){
 	global.cooldownTime = 10;
 }
 
-inputCooldown = global.cooldownTime;
+global.keyCooldown = global.cooldownTime;
 
 //menu buttons to use
 menuButtons[0] = "ERROR";

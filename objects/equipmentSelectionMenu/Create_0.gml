@@ -3,7 +3,7 @@
 
 charac = instance_find(player, 0);
 
-inputCooldown = global.cooldownTime;
+global.keyCooldown = global.cooldownTime;
 
 selectedItem = 0;
 itemsToShow = 12;

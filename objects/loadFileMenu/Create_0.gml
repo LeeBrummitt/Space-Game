@@ -4,7 +4,7 @@
 previousMenu = escapeMenu;
 previousMenuScript = setMainMenu;
 
-inputCooldown = global.cooldownTime;
+global.keyCooldown = global.cooldownTime;
 
 
 

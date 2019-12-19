@@ -1,35 +1,36 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(inputCooldown <= 0){
+if(global.keyCooldown <= 0){
 	switch(keyboard_key){
 		// go back to other menu
 		case vk_escape:	
 			var newMenu = instance_create_layer(0, 0, "MiddleObjects",previousMenu);
 			script_execute(previousMenuScript, newMenu);
 			instance_destroy();
+			global.keyCooldown = global.cooldownTime;
 		break;
 		// go up/down one
 		case vk_up:
 		case vk_numpad8:
 			selectedItem--;
-			inputCooldown = global.cooldownTime;
+			global.keyCooldown = global.cooldownTime;
 		break;
 		case vk_down:
 		case vk_numpad2:
 			selectedItem++;
-			inputCooldown = global.cooldownTime;
+			global.keyCooldown = global.cooldownTime;
 		break;
 		// "jump" a page
 		case vk_right:
 		case vk_numpad6:
 			selectedItem = min(selectedItem + itemsToShow, array_length_1d(characters) - 2);
-			inputCooldown = global.cooldownTime;
+			global.keyCooldown = global.cooldownTime;
 		break;
 		case vk_left:
 		case vk_numpad4:
 			selectedItem = max(0, selectedItem - itemsToShow);
-			inputCooldown = global.cooldownTime;
+			global.keyCooldown = global.cooldownTime;
 		break;
 		// select an option
 		case vk_enter:	
@@ -38,10 +39,9 @@ if(inputCooldown <= 0){
 			newMenu.previousMenu = escapeMenu;
 			newMenu.previousMenuScript = setMainMenu;
 			instance_destroy();
+			global.keyCooldown = global.cooldownTime;
 		break;
 	}
-}else{
-	inputCooldown = inputCooldown - 1;
 }
 
 if(selectedItem < 0){
