@@ -1,0 +1,6 @@
+equipmentSlot
+// slot, name, weight, value, special
+
+
+inventory
+// name, number, weight, value, special

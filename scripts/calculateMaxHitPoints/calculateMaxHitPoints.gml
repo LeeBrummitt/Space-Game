@@ -1,1 +1,1 @@
-return 50+(healthMultiplier/10)*(5*calculateEffectiveSkill(id, "constitution")+calculateEffectiveSkill(id, "strength"));
+return 50+(healthMultiplier/2)*(5*calculateEffectiveSkill(id, "constitution")+calculateEffectiveSkill(id, "strength"));

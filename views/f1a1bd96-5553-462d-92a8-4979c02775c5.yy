@@ -17,10 +17,14 @@
         "4e255648-308b-406d-bfd7-9fb1eb775af7",
         "2010d421-62e9-491a-be38-918c11eea9fc",
         "74f3f8d4-e291-4574-9eff-f7d47aace412",
+        "7b15b2ab-7460-47a5-8e2a-4f44e5b4e065",
+        "a22fc4e6-116e-4c4c-a2ed-d97cd6a8bdba",
+        "bff90996-9db6-4ee0-a201-119d91bf7232",
         "5492e24f-d099-4f0c-9867-dba12c115e4e",
         "4920624f-f158-48c0-ab92-34a809207e86",
         "9c5126f6-8026-463e-af4d-09c3419e9931",
-        "0ec57139-433a-4de4-9df4-a61bd453745e"
+        "0ec57139-433a-4de4-9df4-a61bd453745e",
+        "8bafe519-09bc-4645-8a05-5052b76ece5d"
     ],
     "filterType": "GMScript",
     "folderName": "characterScripts",

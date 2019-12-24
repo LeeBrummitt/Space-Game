@@ -25,3 +25,10 @@ TODO: Check item droping for memory leaks
 TODO: Make sure health, stamina, and psionic are being calculated properly
 
 TODO: Rework game to not use keyboard_key
+
+TODO: Iswitched the two places used in the equipment ds_grid. Make sure this didn't break anything.
+I may have fixed all of the bugs, but I'm putting this here to be safe.
+
+TODO: Bullets currently don't contribute to damage. Fix this.
+
+TODO: Add comments telling script inputs

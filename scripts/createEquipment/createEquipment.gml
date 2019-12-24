@@ -29,6 +29,7 @@ for(var i = 0; i < totalSlots; i++){
 		ds_grid_set(equipment, i, 0, "hand")
 	} else if(i < heads + hands + chests){
 		ds_grid_set(equipment, i, 0, "chest")
+		addItemToEquipment(equipment, genericArmor, i);
 	} else if(i < heads + hands + chests + brainSlots){
 		ds_grid_set(equipment, i, 0, "brainSlot")
 	} else if(i < heads + hands + chests + brainSlots + legs){
@@ -37,8 +38,10 @@ for(var i = 0; i < totalSlots; i++){
 		ds_grid_set(equipment, i, 0, "back")
 	} else if(i < heads + hands + chests + brainSlots + legs + backs + guns){
 		ds_grid_set(equipment, i, 0, "gun")
+		addItemToEquipment(equipment, genericRangedWeapon, i);
 	} else if(i < heads + hands + chests + brainSlots + legs + backs + guns + ammos){
 		ds_grid_set(equipment, i, 0, "ammo")
+		addItemToEquipment(equipment, genericAmmo, i);
 	}
 }
 

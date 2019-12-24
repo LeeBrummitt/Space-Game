@@ -1,2 +1,2 @@
 // TODO: make this better
-return (psionicPowerMultiplier/10)*(calculateEffectiveSkill(id, "intelligence") + (1/2)*calculateEffectiveSkill(id, "constitution"));
+return (psionicPowerMultiplier/2)*(calculateEffectiveSkill(id, "intelligence") + (1/2)*calculateEffectiveSkill(id, "constitution"));

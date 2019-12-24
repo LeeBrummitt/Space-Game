@@ -1,0 +1,10 @@
+[dialogue]
+Hi! This is a test dialogue!
+
+[response1]
+repeat this please?
+testDialogue.txt
+
+[response2]
+Goodbye!
+exit
