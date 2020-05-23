@@ -7,7 +7,6 @@
     "inheritCreationOrder": true,
     "inheritLayers": true,
     "instanceCreationOrderIDs": [
-        "fc56bd67-6fd8-47c3-90ad-c396c0cd8da4",
         "ff3ed6cc-17a5-458d-ac52-dcdb41679951",
         "5d21179c-d6fb-491f-ba44-38f2c46c24a9",
         "352fa30f-97a1-47b1-a7b1-1a82e0abdd7e",
@@ -19,6 +18,7 @@
         "754520cc-4901-4c5a-809c-89468e1febca",
         "22bafa4f-9e2b-4d41-a060-cc9dec2ac15b",
         "0593c8bc-dc52-4fad-9334-ec81ee39ea32",
+        "fc56bd67-6fd8-47c3-90ad-c396c0cd8da4",
         "3cd297e8-5cfe-4187-a928-c222b3a38d99",
         "52b9b2ab-9917-4067-a0ca-cc1f78e88de9",
         "a01b7380-899a-4a1d-8224-dde9dcf79ce0",
@@ -254,7 +254,7 @@
     },
     "mvc": "1.0",
     "views": [
-{"id": "af263ec4-1e1d-412c-ae1e-3095d93f7a7f","hborder": 720,"hport": 450,"hspeed": -1,"hview": 450,"inherit": true,"modelName": "GMRView","objId": "7a7ed946-3553-4114-a707-e89201747335","mvc": "1.0","vborder": 480,"visible": true,"vspeed": -1,"wport": 800,"wview": 800,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
+{"id": "af263ec4-1e1d-412c-ae1e-3095d93f7a7f","hborder": 720,"hport": 450,"hspeed": -1,"hview": 450,"inherit": false,"modelName": "GMRView","objId": "7a7ed946-3553-4114-a707-e89201747335","mvc": "1.0","vborder": 480,"visible": true,"vspeed": -1,"wport": 800,"wview": 800,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
 {"id": "7f7a2f55-dd2f-47a0-a9c8-88bf763d1117","hborder": 32,"hport": 768,"hspeed": -1,"hview": 768,"inherit": true,"modelName": "GMRView","objId": "00000000-0000-0000-0000-000000000000","mvc": "1.0","vborder": 32,"visible": false,"vspeed": -1,"wport": 1024,"wview": 1024,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
 {"id": "f514b32b-833b-4589-8b9a-fae5a524e5c4","hborder": 32,"hport": 768,"hspeed": -1,"hview": 768,"inherit": true,"modelName": "GMRView","objId": "00000000-0000-0000-0000-000000000000","mvc": "1.0","vborder": 32,"visible": false,"vspeed": -1,"wport": 1024,"wview": 1024,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
 {"id": "a8a9a870-d0ec-4fa3-b001-27d8019b5cc8","hborder": 32,"hport": 768,"hspeed": -1,"hview": 768,"inherit": true,"modelName": "GMRView","objId": "00000000-0000-0000-0000-000000000000","mvc": "1.0","vborder": 32,"visible": false,"vspeed": -1,"wport": 1024,"wview": 1024,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
