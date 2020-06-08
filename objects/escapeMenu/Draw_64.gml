@@ -13,4 +13,4 @@ for (var i = 0; i < array_length_1d(menuButtons); i++){
 	if (menuButtons[i] != ""){
 		escapeMenuButton(menuButtons[i], i);
 	}
-}
+} 

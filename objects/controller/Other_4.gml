@@ -74,7 +74,7 @@ if(!variable_global_exists("viewDistance")){
 }
 
 //set key cooldown
-if(!variable_global_exists("global.keyCooldown")){
+if(!variable_global_exists("keyCooldown")){
 	global.keyCooldown = global.cooldownTime;
 }
 

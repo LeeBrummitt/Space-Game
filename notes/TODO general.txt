@@ -32,3 +32,7 @@ I may have fixed all of the bugs, but I'm putting this here to be safe.
 TODO: Bullets currently don't contribute to damage. Fix this.
 
 TODO: Add comments telling script inputs
+
+TODO: Change the input key to a global varible to help with a potential mobile port.
+Use a function that returns a string of the current keys being pressed (ex shift_ctrl_d).
+This will allow you to keep using the switch for the controlls.
