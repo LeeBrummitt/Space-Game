@@ -1,8 +1,12 @@
 {
-    "id": "05182dbb-1a58-4c48-b480-39d72eae37a9",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "getPlayerInput",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "characterScripts",
+    "path": "folders/Scripts/characterScripts.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "getPlayerInput",
+  "tags": [],
+  "resourceType": "GMScript",
 }

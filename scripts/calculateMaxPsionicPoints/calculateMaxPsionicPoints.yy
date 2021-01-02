@@ -1,8 +1,12 @@
 {
-    "id": "fbf03112-882d-4750-94c6-fec8d9ecfed6",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "calculateMaxPsionicPoints",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "getCharacterMaxValues",
+    "path": "folders/Scripts/characterScripts/getCharacterMaxValues.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "calculateMaxPsionicPoints",
+  "tags": [],
+  "resourceType": "GMScript",
 }

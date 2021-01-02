@@ -1,8 +1,12 @@
 {
-    "id": "2010d421-62e9-491a-be38-918c11eea9fc",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "characterIncreaseSkillLevel",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "characterScripts",
+    "path": "folders/Scripts/characterScripts.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "characterIncreaseSkillLevel",
+  "tags": [],
+  "resourceType": "GMScript",
 }

@@ -1,8 +1,12 @@
 {
-    "id": "20639559-a67f-48c1-90e8-851dfa527529",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "calculateMaxHitPoints",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "getCharacterMaxValues",
+    "path": "folders/Scripts/characterScripts/getCharacterMaxValues.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "calculateMaxHitPoints",
+  "tags": [],
+  "resourceType": "GMScript",
 }

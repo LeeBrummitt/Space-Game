@@ -1,8 +1,12 @@
 {
-    "id": "fb970e98-0e67-41df-aa35-15a2aa2dff5a",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "characterAttackMelee",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "characterScripts",
+    "path": "folders/Scripts/characterScripts.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "characterAttackMelee",
+  "tags": [],
+  "resourceType": "GMScript",
 }

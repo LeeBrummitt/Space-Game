@@ -1,8 +1,12 @@
 {
-    "id": "a22fc4e6-116e-4c4c-a2ed-d97cd6a8bdba",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "calculateWeaponDamage",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "characterScripts",
+    "path": "folders/Scripts/characterScripts.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "calculateWeaponDamage",
+  "tags": [],
+  "resourceType": "GMScript",
 }

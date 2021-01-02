@@ -1,8 +1,12 @@
 {
-    "id": "74f3f8d4-e291-4574-9eff-f7d47aace412",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "isCharacterInViewRange",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "characterScripts",
+    "path": "folders/Scripts/characterScripts.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "isCharacterInViewRange",
+  "tags": [],
+  "resourceType": "GMScript",
 }

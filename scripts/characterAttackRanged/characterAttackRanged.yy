@@ -1,8 +1,12 @@
 {
-    "id": "0a90d4eb-4099-4267-9739-4e45cdcb7f33",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "characterAttackRanged",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "characterScripts",
+    "path": "folders/Scripts/characterScripts.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "characterAttackRanged",
+  "tags": [],
+  "resourceType": "GMScript",
 }
